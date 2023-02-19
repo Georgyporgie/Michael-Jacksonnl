@@ -1,0 +1,317 @@
+
+body {
+  background-color: lightgreen;
+ 
+  /* Smoothly transition the background color */
+  transition: background-color .5s;
+}
+
+
+
+
+#youngster
+{
+border: solid 1px Silver;
+height :370px;
+width:300px;
+border-radius: 80px;
+padding :1px 1px 1px 1px; color:Silver;
+background-color:Silver;
+display : block;
+margin: auto auto auto auto;
+z-index: -200;
+filter: brightness(115%) saturate(115%) contrast(110%) opacity(100%);
+
+}
+
+.ben
+{
+border-radius: 30px;
+padding :10px 10px 10px 10px;
+ border :solid 1px  silver; font-size: 10px;
+color:silver; text-align: center;  font-style :  italic;  background-color: Black; margin: 0 0 0 0 ;  font-family: Arial ,Helvetica,sans-serif; display : none;
+height :40px;
+width:200px;
+}
+
+
+.Michael {
+padding :30px 30px 30px 30px;
+ font-size: 75px; filter: brightness(101%) contrast(100%) saturate(100%) opacity(100%);
+;
+color:#FF6633; text-align: center;    background: linear-gradient(180deg,brown,Chocolate);  margin: -62px -8px 0px -8px;  font-family: Arial ,Helvetica,sans-serif; 
+z-index: 100;
+}
+
+
+#Menu
+{
+
+border:none;
+color: black;
+padding: 3px 10px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 15px;
+height: 25px;
+cursor: pointer;
+background-color: transparent;
+width:50px;
+z-index: 200;
+}
+
+#wrapper
+{
+ text-align:center;
+ margin:0 auto;
+ padding:0px;
+ width:995px;
+}
+#player
+{
+ background: linear-gradient(45deg,Burlywood,SandyBrown);
+ width:400px;
+ margin-left:300px;
+ padding:15px 25px 15px 15px;
+ box-sizing:border-box;
+border-radius: 50px;
+
+}
+input[type="image"]
+{
+ float:left;
+ height:40px;
+ margin-left:2px;
+ margin-right:5px;
+ margin-top:2px;
+}
+#vol_img
+{
+ margin-left:150px;
+ width:20px;
+}
+
+
+/* Using flex with the column direction to
+   align items in a vertical direction */
+.player {
+  height: 95vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+ 
+.details {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 25px;
+}
+ 
+.track-art {
+  margin: 25px;
+  height: 250px;
+  width: 250px;
+  background-image: URL(
+     "https://source.unsplash.com/Qrspubmx6kE/640x360");
+  background-size: cover;
+  background-position: center;
+  border-radius: 15%; z-index: -200; transform: rotate(0deg);
+}
+ 
+/* Changing the font sizes to suitable ones */
+.now-playing {
+  font-size: 1rem;
+}
+ 
+.track-name {
+  font-size: 3rem;
+}
+ 
+.track-artist {
+  font-size: 1.5rem;
+}
+ 
+/* Using flex with the row direction to
+   align items in a horizontal direction */
+.buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+ 
+.playpause-track,
+.prev-track,
+.next-track {
+  padding: 25px;
+  opacity: 0.8;
+ 
+  /* Smoothly transition the opacity */
+  transition: opacity .2s;
+}
+ 
+/* Change the opacity when mouse is hovered */
+.playpause-track:hover,
+.prev-track:hover,
+.next-track:hover {
+  opacity: 1.0;
+}
+ 
+/* Define the slider width so that it scales properly */
+.slider_container {
+  width: 75%;
+  max-width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ 
+/* Modify the appearance of the slider */
+.seek_slider, .volume_slider {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  height: 5px;
+  background: black;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+ 
+/* Modify the appearance of the slider thumb */
+.seek_slider::-webkit-slider-thumb,
+.volume_slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 15px;
+  height: 15px;
+  background: white;
+  cursor: pointer;
+  border-radius: 50%;
+}
+ 
+/* Change the opacity when mouse is hovered */
+.seek_slider:hover,
+.volume_slider:hover {
+  opacity: 1.0;
+}
+ 
+.seek_slider {
+  width: 60%;
+}
+ 
+.volume_slider {
+  width: 30%;
+}
+ 
+.current-time,
+.total-duration {
+  padding: 10px;
+}
+ 
+i.fa-volume-down,
+i.fa-volume-up {
+  padding: 10px;
+}
+ 
+/* Change the mouse cursor to a pointer
+   when hovered over */
+i.fa-play-circle,
+i.fa-pause-circle,
+i.fa-step-forward,
+i.fa-step-backward {
+  cursor: pointer;
+}
+
+p {  background-color: #CCFFFF; font-size: 19px;
+margin: 5px 5px 5px 5px; z-index: -200; padding: 25px;
+border: solid 2px silver;border-radius: 20px;
+
+}
+
+.italic {
+font-style: italic;
+}
+.bold {
+font-weight: bold;
+}
+
+.underline { 
+text-decoration: underline;
+}
+.highlight { 
+background-color: thistle;
+}
+#Victor
+{
+font-style :  italic;font-family: Arial ,Helvetica,sans-serif; background : linear-gradient(90deg,#000000,#FFFFFF); color:black; border: solid 2px Metallic;
+border-radius: 10px; display: block; margin: auto auto auto auto; font-size: 15px; height: 50px;width: 25%; font-weight: 600;
+
+
+
+
+}
+
+.grid-container  {
+display: grid;
+gap: 2px;
+}
+
+.footer  {
+display: flex;
+grid-column: span 2;
+
+}
+
+.item  {  
+font-size: 10px;
+background: linear-gradient(180deg,Chocolate,brown);
+padding: 20px; margin: -63px -8px -2px -8px; 
+}
+
+
+
+.header  {  
+grid-column: span 2;
+text-align: center;
+font-size: 40px;
+ z-index: -200; border: solid 3px gold;
+}
+
+#jack
+{
+border: solid 2px Silver;
+height :250px;
+width:280px;
+border-radius: 0px;
+padding :1px 1px 1px 1px; color:Silver;
+background-color:Silver;
+margin: auto auto auto auto;
+display: block;
+filter: brightness(110%) saturate(105%) contrast(115%) opacity(100%);
+z-index: 200;
+}
+
+
+
+#Together {
+
+text-align: center;
+font-size: 30px; color: aliceBlue; text-decoration: underline; z-index: 200;border-radius: 20px;
+}
+
+.balk  {  border: solid 2px #CCCCCC; background-color: chocolate; z-index: -400; border-radius: 50px;
+}
+
+.pear
+{
+font-family: Arial ,Helvetica,sans-serif;  background:linear-gradient(45deg,red,#dc143c,#d11346); color:black; border: solid 2px Metallic;
+border-radius: 10px; display: block; margin: auto auto auto auto; font-size: 15px; height: 40px;width: 25%;  font-weight: 400;
+z-index: -200; text-align: center;
+
+
+}

@@ -1,0 +1,430 @@
+
+body { 
+ background:linear-gradient(90deg,#eb1f48,#dc143c,#d11346); 
+
+
+}
+
+
+
+
+.Popicon
+
+{ 
+padding : 4px  4px  4px  4px; font-style :  italic;   background-color: Silver;
+ display: block;
+ z-index: 200;
+ border-radius: 75px; 
+margin : auto auto auto auto;
+height :340px;
+width: 250px;
+border: solid 1px black;
+filter: brightness(110%) saturate(110%) contrast(110%) opacity(100%); transform: rotate(0deg);
+}
+
+
+.Singles
+{
+
+text-align: center;
+font-family: Arial ,Helvetica,sans-serif;
+
+color:Black; background-color: beige;
+margin: 10px 10px 10px 10px; padding: 20px 20px 20px 20px;
+font-weight: 400;border: solid 2px silver;
+font-size: 20px;border-radius: 20px;
+z-index: -100;
+}
+
+
+#MJ{
+padding :10px 5px 9px 6px;  background: linear-gradient(90deg,#333333,#000000);
+ border :solid 3px  gold; font-size: 40px; 
+color:Gold; text-align: center;  font-style :  italic;   margin: -26px -10px 0px -9px;  font-family: Arial ,Helvetica,sans-serif; z-index: -200;
+
+}
+
+
+#Pop {
+padding :10px 5px 10px 5px;
+ border :solid 3px  gold; font-size: 20px; z-index:-100; 
+color:silver; text-align: center;   background-color: black; margin: -5px -10px 0px -9px;  font-family: Arial ,Helvetica,sans-serif; 
+}
+
+#Menu
+{
+background-color: transparent;
+border:none;
+color: white;
+padding :3px 10px;
+text-align: center;
+text-decoration: none;
+
+font-size: 15px;
+height: 25px;
+cursor: pointer;
+float: left;
+width: 24.27%;
+z-index: -200;
+
+
+}
+.fo_audio
+{
+
+padding :15px 15px 15px 15px;
+ border :solid 2px  gold; font-size: 40px;
+color:gold; text-align: center;  font-style :  italic;  background: linear-gradient(90deg,#333333,#000000); margin: 0 0 0 0 ;  font-family: Arial ,Helvetica,sans-serif; 
+height :40px;
+width:200px;
+}
+
+#Discography
+
+
+
+
+{ 
+padding : 3px 3px 3px 3px; font-style :  italic;  color:Gold;  background-color: silver;
+ z-index: -1;
+ filter: brightness(105%) saturation(105%) contrast(120%) opacity(100%); transform: rotate(0deg);
+ border-radius: 100px; 
+margin :80px 30px 30px 30px;
+height :210px;
+width:165px;
+border: solid 1px black;
+
+
+}
+
+
+
+
+
+#Glasses {
+filter: brightness(120%) saturate(120%) contrast(110%) opacity(100%);
+ transform: rotate(20deg);
+background-color: Black; margin: auto auto auto auto ; height: 48px;
+width:65px;
+z-index: 125;
+}
+
+#Glove {
+filter: brightness(110%) saturate(120%) contrast(115%) opacity(100%); 
+ transform: rotate(-25deg);
+background-color: Black; margin: auto auto auto auto ; height:42px;
+width:38px;
+z-index:50;
+}
+
+li:hover {
+  color:#FF0000;
+
+}
+
+.italic {
+font-style: italic;
+}
+.bold {
+font-weight: bold;
+}
+
+.underline { 
+text-decoration: underline;
+}
+
+.highlight { 
+background-color: #FFCCCC;
+}
+
+
+
+
+.Hits
+
+{
+
+
+font-family: Arial ,Helvetica,sans-serif;
+font-style :  italic;
+color:Black;
+margin: 5px 5px 5px 5px;
+font-weight: 400;
+font-size: 20px;
+z-index: 0;
+}
+
+#pear
+{
+font-family: Arial ,Helvetica,sans-serif;  background:linear-gradient(45deg,red,#dc143c,#d11346); color:black; border: solid 2px Metallic;
+border-radius: 10px; display: block; margin: auto auto auto auto; font-size: 15px; height: 40px;width: 25%;  font-weight: 600;
+z-index: -200; text-align: center;
+
+
+}
+
+
+.grid-container  {
+display: grid;
+gap: 2px;
+}
+
+.footer  {
+display: flex;  z-index:100;
+grid-column: span 2;
+}
+
+.item  {  
+font-size: 10px;
+background-color: crimson;
+padding: 20px;
+margin: -10px -10px -10px -10px;
+text-align: center;
+}
+
+
+#bull { 
+height: 40px; width: 50px;
+filter:brightness(110%)contrast(115%)saturate(110%) opacity(75%);
+border-radius: 5px;
+z-index: -100;
+}
+
+
+.eye  {  color: crimson; font-size: 15px;
+position: relative; text-align: center;
+z-index: -100; margin: 5px 5px -5px 5px;
+}
+
+a { color: black;
+}
+
+
+
+#Queen
+
+{ 
+padding : 3px 3px 3px 3px; font-style :  italic;  background-color: silver;
+ z-index: 100;
+ filter:brightness(102%) saturation(105%) contrast(120%) opacity(0%); 
+transform: rotate(-2deg);
+ border-radius: 40px; 
+margin :80px 100px 30px 30px;
+height :220px;
+width:120px;
+border: solid 1px black;  float: right;
+
+
+}
+
+p {  background-color: #F5F5F5; font-size: 18px;
+margin: 5px 5px 5px 5px; z-index: -200; padding: 25px;
+border: solid 2px silver;border-radius: 20px;
+
+}
+
+#spot { 
+height: 120px; width: 225px;
+filter:brightness(110%)contrast(115%)saturate(110%) opacity(75%);
+border-radius: 10px; float: right; transform: rotate(0deg);
+z-index: 0; margin-left: 5px ; margin-right: 5px;
+}
+
+#Hat {
+filter: brightness(110%) saturate(105%)contrast(110%) opacity(100%);
+ transform: rotate(-45deg);
+background-color: Black; margin: auto auto auto auto ; height: 51px;
+width:71px; border-radius: 81px;
+z-index:75;
+}
+
+.crown {
+filter: brightness(110%) saturate(110%) contrast(110%) opacity(75%);
+ transform: rotate (-95deg);
+background-color: Black; margin: auto auto auto auto ; height: 33px;
+width:48px;
+z-index: -150;
+}
+
+#Deel 
+{
+padding :5px 5px 5px 5px Gold;  height: 25px; width: 6%; background: linear-gradient(45deg,black,#333333,#d3d3d3);
+color: gold;  font-style :  italic;  font-size: 16px; z-index: 0;
+  border-radius: 30px;    font-family: Arial ,Helvetica,sans-serif; font-weight: 600;
+text-align: center;display:block; height: 35px; width: 80px; margin: auto auto auto auto;
+}
+
+#posts
+{  
+font-style :  italic; font-size : 20px; color: Crimson; text-align: center; margin: 5px 5px 5px 5px;
+  font-family:Lucida handwriting; background-color: Silver;
+
+}
+
+textarea 
+{
+padding :20px 20px 20px 20px; background-color:Cornsilk; display:block;
+color: Black; text-align: center;  font-style :  italic;   margin: auto auto auto auto; font-size: 15px;
+  border-radius: 30px;   font-weight: bold; font-family: Arial ,Helvetica,sans-serif;height:40px; width:150px;
+}
+
+#Lovely
+
+
+
+
+{ 
+   background-color: black;
+z-index: -100;
+ padding: 5px;
+ border-radius: 30px; 
+
+height :180px;
+width:320px;
+border: solid 1px blue;display: block;
+ margin : auto auto auto auto;
+filter: brightness(105%) saturate(120%) contrast(105%) opacity(100%);
+}
+
+#suffi {
+filter: brightness(125%) saturate(115%) contrast(115%) opacity(100%);
+ transform: rotate(0deg);
+background-color: Blue; margin: auto auto auto auto ; 
+width:75px; height: 100px; border-radius: 50px;
+float:left;
+z-index: 100; border: solid black;
+}
+
+#Prince
+
+
+
+
+{ 
+ 
+display: block;
+ z-index: 50;
+ border-radius: 50px; 
+position: absolute;
+height :190px;
+width:230px;
+margin: auto auto auto auto ; display: block;
+filter: brightness(110%) saturate(110%) contrast(110%) opacity(75%);
+}
+
+
+#dance
+
+{ 
+
+ z-index: 200;
+ filter:brightness(102%) saturation(105%) contrast(120%) opacity(0%); 
+transform: rotate(0deg);
+ border-radius: 40px; 
+margin :auto auto auto auto;
+height :200px;
+width:240px;
+
+display: block;
+border: solid 3px blue; padding: 5px;
+}
+
+#luister {   width:100px; height: 30px; border-radius: 5px;
+   z-index: -300; float: right;margin :auto auto auto auto;
+ filter:brightness(102%) saturation(105%) contrast(120%) opacity(50%); 
+}
+
+.Movie
+{
+
+z-index: -50;
+
+border: solid silver 1px;
+
+background-color:Silver;
+display: block;
+margin: auto auto auto auto;
+}
+
+#play  {  color: #FF0000; text-decoration: underline;
+animation: blinker 1s step-start infinite;
+
+}
+
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+
+
+#mimo {   width:100px; height: 40px; border-radius: 5px; transform:rotate(-1deg);
+   z-index: -300; float: right; margin-top: 50px; 
+ filter:brightness(102%) saturation(105%) contrast(120%) opacity(50%); margin-left: -80px;
+}
+
+#kvms {   width:140px; height: 25px; border-radius: 5px; transform:rotate(4deg);
+   z-index: -300; float: right; margin-top: 100px; 
+ filter:brightness(102%) saturation(105%) contrast(120%) opacity(50%); margin-left: -250px;
+}
+
+
+
+
+
+.balk  {  border: solid 2px #FF9966; background-color: chocolate; z-index: -400; border-radius: 50px;
+}
+  
+
+#special  {  color: #FF0000; 
+animation: blinker 1s step-start infinite;
+
+}
+
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+
+
+.kop {
+padding :15px 5px 15px 5px;  background: linear-gradient(90deg,#333333,#000000);
+ border :solid 3px  gold; font-size: 40px; 
+color:Gold; text-align: center;  font-style :  italic;  margin:-26px -10px 0px -8px; font-family: Arial ,Helvetica,sans-serif; z-index: -200;
+
+}
+
+
+#ball  { margin: auto auto auto auto; display: block;  height: 150px; width: 150px; z-index: -300;filter:brightness(110%) saturation(110%) contrast(110%) opacity(75%);
+
+}
+
+
+.lp
+{
+
+text-align: center;
+font-family: Arial ,Helvetica,sans-serif;
+font-style :  italic;
+color:Black; background-color: beige;
+margin: 10px 10px 10px 10px; padding: 20px 20px 0px 20px;
+font-weight: 400;border: solid 2px silver;
+font-size: 20px; border-radius: 20px;
+z-index: -200;
+}
+
+.Login {
+
+padding :5px 5px 5px 5px Gold;  height: 25px; width: 6%; background: linear-gradient(45deg,black,#333333,#d3d3d3);
+color: gold;  font-style :  italic;  font-size: 16px; z-index: 0;
+  border-radius: 30px;    font-family: Arial ,Helvetica,sans-serif;
+text-align: center;display:block; height: 35px; width: 80px; margin: auto auto auto auto;
+}
+
+
+

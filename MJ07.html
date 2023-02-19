@@ -1,0 +1,192 @@
+
+<!DOCTYPE html> 
+
+<html>    
+
+<head>
+
+
+
+<title>Michael Jackson.nl   </title>
+<link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+<!-- Load FontAwesome icons -->
+  <link rel="stylesheet"
+        href=
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+<!-- Load the custom CSS style file -->
+<link rel="stylesheet" href="style5.css" >
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+</head>
+
+
+
+<body>
+
+
+
+<br> 
+<br> 
+<br> 
+<div class="grid-container">
+<div class="item header">Young Michael Jackson</div>
+
+
+<button id="Menu" onclick="window.location.href= 'index.html';">Home</button>
+
+
+</div>
+<br> 
+<br> 
+<br> 
+<br> 
+<br> 
+<br> 
+<div>
+
+<img id= "youngster">
+
+<br> 
+<br> 
+<br> 
+<br> 
+<button id="Victor" onclick="changeAttribute()">The Jacksons</button>
+
+<br>
+<br>
+<br>
+<button id="Victor" onclick="changeProfile()">Don't !</button>
+
+
+</div>
+
+<br> 
+<br> 
+<br> 
+<br> 
+<br> 
+<br> 
+<br> 
+<br> 
+<br> 
+<div>
+<h5 class="balk"></h5>
+</div>
+
+<div>
+<h5 id= "Together">The Jackson 5</h5>
+<br> 
+<br> 
+<p>The <em>eighth</em> child of the Jackson family, <em>Michael</em> made his professional debut in 1964 with his elder brothers Jackie, Tito, Jermaine and Marlon as a member of the <em>Jackson 5</em>.<br>Later in 1964, Michael began sharing lead vocals with <em>Jermaine</em>. <br><br>
+In august 1967 while touring the East Coast, they won a weekly amateur night concert at the <em>Apollo Theather</em> in Harlem.<br><br>
+In 1969 Motown executives decided <em>Diana Ross</em> should introduce the Jackson 5 tot the public.<br>
+The Jackson 5 made their first television debut in 1969 in the <em>Miss Black America pageant</em>, performing a cover of 'it's your thing'.<br><br>
+In January 1970 <em>'I want you back'</em> became the first Jackson 5 song to reach number one on the <em>US Billboard Hot 100</em> it stayed there for four weeks.<br><br>
+Jackson began his solo career in 1971 while at <em>Motown Records</em> and became a solo star with his 1979 album <em>Off the Wall</em>.<br></p>
+<br> 
+<br>
+
+<br> 
+<br>
+<br> 
+<br>
+<br> 
+<br> 
+<br> 
+</div>
+<br>
+<br>
+<div>
+<img id= "jack">
+<br> 
+<br> 
+
+</div>
+
+<div>
+<h5 class="balk"></h5>
+</div>
+
+<div class="player">
+ 
+    <!-- Define the section for displaying details -->
+    <div class="details">
+      <div class="now-playing">PLAYING x OF y</div>
+      <div class="track-art"></div>
+      <div class="track-name">Track Name</div>
+      <div class="track-artist">Track Artist</div>
+    </div>
+ 
+    <!-- Define the section for displaying track buttons -->
+    <div class="buttons">
+      
+
+
+<div class="prev-track" onclick="prevTrack()">
+        <i class="fa fa-step-backward fa-2x"></i>
+      </div>
+      <div class="playpause-track" onclick="playpauseTrack()">
+        <i class="fa fa-play-circle fa-5x"></i>
+      </div>
+      <div class="next-track" onclick="nextTrack()">
+        <i class="fa fa-step-forward fa-2x"></i>
+      </div>
+    </div>
+ 
+    <!-- Define the section for displaying the seek slider-->
+    <div class="slider_container">
+      <div class="current-time">00:00</div>
+      <input type="range" min="1" max="100"
+        value="0" class="seek_slider" onchange="seekTo()">
+      <div class="total-duration">00:00</div>
+    </div>
+ 
+    <!-- Define the section for displaying the volume slider-->
+    <div class="slider_container">
+      <i class="fa fa-volume-down"></i>
+      <input type="range" min="1" max="100"
+        value="99" class="volume_slider" onchange="setVolume()">
+      <i class="fa fa-volume-up"></i>
+    </div>
+
+<div id= "right">
+
+<br> 
+<br> 
+ 
+ 
+
+
+
+
+
+  
+<!-- Load the main script for the player -->
+<script src= "script3.js"> </script>
+
+
+<script>
+//Get our img element by using document.getElementById
+var img = document.getElementById("youngster");
+
+//Set the src property of our element to the new image URL
+img.src = 'images/young_michael_jackson_by_siryouss.png'</script>
+
+<script>
+//Get our img element by using document.getElementById
+var img = document.getElementById("jack");
+
+//Set the src property of our element to the new image URL
+img.src = 'images/Jackson 5  68.png'</script>
+
+
+
+
+
+</body>
+
+
+</html>

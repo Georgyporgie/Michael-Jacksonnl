@@ -1,0 +1,212 @@
+
+body { 
+background : linear-gradient(90deg,orangered,firebrick);
+
+
+}
+
+
+#Mike
+{
+border: solid 1px Silver;
+height :700px;
+width:550px;
+border-radius: 80px;
+padding :1px 1px 1px 1px; color:Silver;
+background-color:Silver;
+display : block;
+margin: auto auto auto auto;
+}
+
+
+#Creep
+{
+border: solid 1px Black;
+height :215px;
+width:325px;
+border-radius: 80px;
+padding :1px 1px 1px 1px ;
+display : block;
+margin: auto auto auto auto;
+background-color: black;
+filter: brightness(115%) saturate(110%) contrast(120%) opacity(100%);
+z-index:200;
+
+}
+#Ripper
+{
+border-radius: 30px;
+padding :10px 10px 10px 10px;
+ border :solid 1px  silver; font-size: 10px;
+color:silver; text-align: center;  font-style :  italic;  background-color: Black; margin: 0 0 0 0 ;  font-family: Arial ,Helvetica,sans-serif; display : none;
+height :40px;
+width:200px;
+}
+
+
+
+
+#Michael 
+{
+padding :30px 30px 30px 30px;
+ font-size: 50px;
+color:Yellow; text-align: center;  font-style :  italic;  background-color: Brown; margin: 0 0 0 0 ;  font-family: Arial ,Helvetica,sans-serif; 
+}
+
+
+#Menu
+{
+background-color: transparent;
+border:none;
+color: white;
+padding: 3px 10px;
+text-align: center;
+text-decoration: none;
+
+font-size: 15px;
+height: 25px;
+cursor: pointer;
+float: left;
+width: 24.27%;
+z-index: -200;
+
+
+}
+
+#Appleh
+{
+font-style :  italic;font-family: Arial ,Helvetica,sans-serif; font-size: 17px;background:linear-gradient(90deg,firebrick,orangered); color:black; border: solid 2px Metallic;
+border-radius: 10px; display: block; margin: auto auto auto auto; font-size: 20px; height: 55px;width: 32%;  font-weight: 600; z-index: 0;
+
+
+
+
+
+}
+.pear
+{
+font-style :  italic;font-family: Arial ,Helvetica,sans-serif; font-size: 17px;background:linear-gradient(90deg,firebrick,orangered); color:black; border: solid 2px Metallic;
+border-radius: 10px; display: block; margin: auto auto auto auto; font-size: 20px; height: 55px;width: 32%;  font-weight: 400;
+
+
+
+
+
+}
+
+#Thriller
+{
+padding :20px 20px 20px 20px;
+ border :solid 3px  gold; font-size: 40px; margin:-26px -10px 0px -8px;
+color:Gold; text-align: center;  font-style :  italic;  background: linear-gradient(90deg,#333333,#000000);   font-family: Arial ,Helvetica,sans-serif; z-index: -200;
+}
+
+#Paris
+{
+border: solid 1px Black;
+height :380px;
+width:280px;
+border-radius: 10px;
+padding :1px 1px 1px 1px; color:Silver;
+background-color:Black;
+display : block;
+margin: auto auto auto auto;
+filter: brightness(135%) saturate(110%) contrast(115%) opacity(100%);
+z-index:100;
+}
+
+.Eng {
+filter: brightness(110%) saturate(103%) contrast(130%) opacity(100%);
+ transform: rotate(0);
+background-color: Black; margin: auto auto auto auto ; height :150px;
+width:250px;
+z-index:-30; border-radius: 50px;
+}
+
+
+.italic {
+font-style: italic;
+}
+.bold {
+font-weight: bold;
+}
+
+.underline { 
+text-decoration: underline;
+}
+
+.highlight { 
+background : linear-gradient(90deg,orangered,firebrick);
+}
+
+#Beast
+{
+font-family: Arial ,Helvetica,sans-serif; background : linear-gradient(90deg,firebrick,orangered); color:black; border: solid 2px Metallic;
+border-radius: 10px; margin: 5px 5px 5px 50px; font-size: 15px; height: 35px;width: 4%;   z-index: -300;
+
+
+
+
+
+}
+
+.grid-container  {
+display: grid;
+gap: 2px;
+}
+
+.footer  {
+display: flex;
+grid-column: span 2;
+}
+
+.item  {  
+background-color: orangered;
+padding: 20px; margin: -10px -10px -10px -10px;
+font-size: 10px;
+text-align: center;
+}
+
+.bull { 
+height: 40px; width: 50px;
+filter:brightness(110%)contrast(115%)saturate(110%) opacity(75%);
+border-radius: 5px;
+z-index: -100;
+}
+a { color: black;
+}
+
+
+
+p {  background:linear-gradient(-45deg,firebrick,orangered); font-size: 19px;
+margin: 5px 5px 5px 5px; z-index: -200; padding: 25px;
+ border-radius: 20px; border: solid 1px black;
+
+}
+
+#public {
+display: none;
+}
+
+.pear
+{
+font-family: Arial ,Helvetica,sans-serif;  background:linear-gradient(45deg,red,#dc143c,#d11346); color:black; border: solid 2px Metallic;
+border-radius: 10px; display: block; margin: auto auto auto auto; font-size: 15px; height: 40px;width: 25%;  font-weight: 400;
+z-index: -200; text-align: center;
+
+
+}
+
+
+#luister {   width:100px; height: 30px; border-radius: 5px;
+   z-index: -300; float: right;margin :auto auto auto auto;
+ filter:brightness(102%) saturation(105%) contrast(120%) opacity(75%); 
+}
+
+#mimo {   width:100px; height: 40px; border-radius: 5px; transform:rotate(-1deg);
+   z-index: -300; float: right; margin-top: 50px; 
+ filter:brightness(102%) saturation(105%) contrast(120%) opacity(75%); margin-left: -80px;
+}
+
+.balk  {  border: solid 2px #FF9966; background-color: chocolate; z-index: -400; border-radius: 50px;
+}

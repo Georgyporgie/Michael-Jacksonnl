@@ -1,0 +1,939 @@
+
+body { 
+background-color:Cornsilk;
+
+margin: 2px 5px 2px 5px ;
+
+
+}
+
+
+#Mike
+{
+border: solid 1px Silver;
+height :700px;
+width:550px;
+border-radius: 80px;
+padding :1px 1px 1px 1px; color:Silver;
+background-color:Silver;
+display : block;
+margin: auto auto auto auto;
+}
+
+
+.store  {  text-align: center; color:black; text-decoration: underline; font-size: 40px; z-index: 50;
+}
+
+
+
+#Michael {
+padding :30px 30px 30px 30px;
+ font-size: 50px;
+color:Yellow; text-align: center;  font-style :  italic;  background-color: Brown; margin: 0 0 0 0 ;  font-family: Arial ,Helvetica,sans-serif; 
+}
+
+
+.Menu
+{
+background-color: transparent;
+border:none;
+color: black;
+padding: 3px 10px;
+text-align: center;
+text-decoration: none;
+
+font-size: 15px;
+height: 25px;
+cursor: pointer;
+float: left;
+width: 14.27%;
+z-index: 0;
+}
+
+#Proceed
+{
+font-style :  italic;font-family: Arial ,Helvetica,sans-serif; font-size: 17px;background-color: Papayawhip;  color:crimson; border: solid 2px Metallic;
+border-radius: 10px; display: block; margin: auto auto auto auto; font-size: 30px; height: 75px;width: 10.27%;
+
+
+
+
+
+}
+
+
+#Healing {
+padding :30px 30px 30px 30px;
+ border :solid 3px  gold; font-size: 75px;
+color:Gold; text-align: center;  font-style :  italic;  background-color: Black; margin: 0 0 0 0 ;  font-family: Arial ,Helvetica,sans-serif; 
+}
+
+.Paris
+{
+border: solid 1px Black;
+
+z-index: 50;
+
+background-color:Silver;
+display : block;
+margin: auto auto auto auto;
+
+
+
+}
+
+.product {
+ display:inline-block;
+ margin: 5px; 
+}
+
+#basketImage {
+ position: absolute;
+ right: 16px;
+ top: 16px;
+z-index: 100;
+}
+
+#itemCounter {
+ position: absolute;
+ right: 56px;
+ top: 0px;z-index: 100;
+}
+
+#orderTotal {
+ margin-right: 16px;
+ text-align: right;
+}
+
+
+#shippingTotal {
+margin-right: 16px;
+text-align: right;
+}
+
+#george {
+
+ 
+  background-color: Brown; margin: 0 0 0 0 ; z-index: 200;  
+height: 200px;
+width: 200px;
+}
+
+
+
+#george2 {
+
+ 
+  background-color: Brown; margin: 0 0 0 0 ; z-index: 200;  
+height: 200px;
+width: 200px;
+}
+
+
+
+
+#george3 {
+
+ 
+  background-color: Brown; margin: 0 0 0 0 ; z-index: 200;  
+height: 200px;
+width: 200px;
+}
+
+
+
+#george4 {
+
+ 
+  background-color: Brown; margin: 0 0 0 0 ; z-index: 200;  
+height: 200px;
+width: 200px;
+}
+
+
+
+#george5 {
+
+ 
+  background-color: Brown; margin: 0 0 0 0 ; z-index: 200;  
+height: 200px;
+width: 200px;
+}
+
+
+
+#george6 {
+
+ 
+  background-color: Brown; margin: 0 0 0 0 ; z-index: 200;  
+height: 200px;
+width: 200px;
+}
+
+
+#george7 {
+
+ 
+  background-color: Brown; margin: 0 0 0 0 ; z-index: 200;  
+height: 200px;
+width: 200px;
+}
+
+
+
+#george8 {
+
+ 
+  background-color: Brown; margin: 0 0 0 0 ; z-index: 200;  
+height: 200px;
+width: 200px;
+}
+
+
+#george9 {
+
+ 
+  background-color: Brown; margin: 0 0 0 0 ; z-index: 200;  
+height: 200px;
+width: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+h2 {
+ background-color: brown;
+ color: white; 
+ padding: 10px; 
+}
+
+ 
+
+
+#checkout  {
+background-color: brown;
+ color: white; margin: auto auto auto auto; display: block;
+ padding: 10px; font-weight:700;
+}
+
+
+
+h3{ 
+z-index: -200;
+display: left;
+position: absolute;
+top: 185px;  color: black;
+font-style: italic;
+
+}
+
+
+
+.container {
+ border: solid 2px #806868;
+ display: flex;
+ flex-direction: row;
+}
+
+.item {
+ border: 2px solid #457081;
+ margin: 10px; z-index: -100;
+}
+
+.Movie
+{
+ width: 470px; height: 500px;
+z-index: 50;
+
+border: solid black 2px;
+background-color:Silver;
+display: block;
+margin: auto auto auto auto;
+}
+
+.throne { width: 370px; height: 400px; z-index: 200;
+filter: brightness(110%) saturate(120%) contrast(110%)  opacity(75%); margin-right:-10px;  transform: rotate(0deg);
+float: right; 
+}
+
+.sales  {  
+text-align: center; font-weight: 600; font-size: 30px;  color: Black; z-index: -50; text-decoration: underline;
+}
+
+.on {  font-size: 10px;  font-family: papyrus; color: black; text-align: center; background-color: gold;
+ margin: 5px 5px 5px 5px; z-index: 0; Font-weight: bold; height: 22px; width: 33px; float: right; border-radius: 3px;
+} 
+
+.off {  font-size: 10px;  font-family: papyrus; color: black; text-align: center;
+ margin: 5px -38px 5px 5px; z-index: 0; Font-weight: bold; background-color:cornsilk;
+ height: 22px; width: 33px;float: right; border-radius: 3px;
+
+} 
+
+.Mi  {
+
+width: 120px; height: 75px; z-index: -175; 
+filter: brightness(110%) saturate(100%) contrast(110%) opacity( 75%); margin: 5px 50px 5px 5px ; transform: rotate(1deg4deg);
+float: right;
+}
+
+#bubbles {
+
+ 
+  background-color: Brown; margin: 0 0 0 0 ;  
+height: 200px; filter: opacity(50%); z-index: -100;
+width: 200px;
+}
+
+#yes {  background-color: white; font-size: 19px;
+margin: 5px 5px 5px 5px; z-index: -200; padding: 25px;
+border: solid 2px silver; border-radius: 20px;
+
+}
+
+.restau  {
+
+
+ background-color: brown;
+ color: white;
+ padding: 10px;
+}
+
+.container {
+ display: flex; 
+ background-color: #edc9b5;
+ flex-direction: column-reverse;
+ width: 170px;
+justify-content: space-around; z-index: -100;
+}
+
+.item {
+ margin: 10px;
+ padding: 10px;
+ width: 130px;
+ height: 100px;
+
+}
+
+.container, .item {
+ border-radius: 20px;
+}
+
+
+#Healer {
+  border:solid 1px LightCyan; 
+  border-radius: 100px;
+  padding:1px 1px 1px 1px  LightCyan;
+  height: 500px;
+  display: block;
+  
+  width: 40%;
+  margin : auto auto auto auto;
+ 
+}
+
+#genezer 
+{  
+font-style :  italic; font-size : 20px; color: Gold; text-align: center; 
+  font-family: Arial ,Helvetica,sans-serif; background-color:black; 
+padding : 50px 40px 50px 40px ; border-radius: 90px;  border: solid 2px gold; margin: 30px 30px 30px 30px;
+}
+
+
+
+.Signup {
+padding: 3px 3px 3px 3px Silver;  height: 40px; width: 60px; background-color: black; color: silver; font-family: Arial, Helvetica, sans-serif;
+border-radius: 30px 30px 30px 30px ; font-size: 12px;
+margin: 10px 6px 1px 56px;
+}
+
+.Veerle {
+font-family: Arial, Helvetica, sans-serif;
+padding: 2px 2px 2px 2px  color Black; background-color: Cornsilk; width: 80px; font-size: 12px;
+margin: 0 5px 0 45px ; height: 15px;
+}
+
+.Account
+{ 
+font-size: 12px; font-family: Arial, Helvetica, sans-serif; color: black; 
+background-color:Thistle; margin: 1px 2px 5px 45px;
+}
+
+.Earth {
+
+height: 105px;  
+width:110px; border-radius:40px;  margin: 5px 10px 10px 40px;
+}
+
+.Symbool {
+
+height: 110px;  
+width:90px; border-radius:40px;  margin:auto 10px 10px 1085px;
+}
+
+
+
+.Heal 
+{ 
+padding : 10px 10px 10px 10px; font-style :  italic;  color:Gold; text-align: center; background-color: Crimson;
+border :solid 2px  gold;
+ font-size: 30px;
+  border-radius: 30px;margin: 30px 30px 30px 30px; font-weight: bold; font-family: Arial ,Helvetica,sans-serif;margin-top: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#Deel 
+{
+padding :5px 5px 5px 5px Gold;  height: 25px; width: 6%; background-color:Black; 
+color: gold;  font-style :  italic;  font-size: 16px;
+  border-radius: 30px;    font-family: Arial ,Helvetica,sans-serif;
+text-align: center;display:block; height: 35px; width: 80px; margin: auto auto auto auto;
+}
+
+a {
+text-align: center;display: block;   color:Blue; font-family: Arial ,Helvetica,sans-serif;font-style :  italic;
+}
+
+
+
+textarea 
+{
+padding :20px 20px 20px 20px; background-color:Cornsilk; display:block;
+color: Black; text-align: center;  font-style :  italic;   margin: auto auto auto auto; font-size: 13px;
+  border-radius: 30px;   font-weight: bold; font-family: Arial ,Helvetica,sans-serif;height:40px; width:150px;
+}
+  
+
+
+
+
+
+#posts
+{  
+font-style :  italic; font-size : 22px; color: Gold; text-align: center; margin: 5px 5px 5px 5px;
+  font-family:Arial ,Helvetica,sans-serif; background-color: Silver;
+
+}
+
+
+
+
+#Music
+{
+border: solid 2px Silver;
+height:40px;
+width: 290px;
+background-color:Silver;
+border-radius: 100px;
+
+padding :1px 1px 1px 1px; color:Silver;
+margin: 10px 10px 10px 5px;
+
+}
+
+
+
+
+
+
+
+
+#Fiddler
+
+{
+
+
+font-family: Arial ,Helvetica,sans-serif;
+font-style :  italic;
+color:Black;
+margin: 5px 5px 5px 5px;
+
+
+}
+
+
+#Ricatech
+{
+border: solid 1px Silver;
+height:130px;
+width:130px;
+
+padding :1px 1px 1px 1px; color:Silver;
+background-color:Silver;
+
+margin: 10px 10px 1px 50px;
+}
+
+.Playlist 
+
+{ 
+padding : 5px 5px 5px 5px; font-style :  italic;  color:Gold; text-align: center; background-color: Crimson;
+
+ font-size: 19px;
+ border-radius: 30px; font-weight: bold; font-family: Arial ,Helvetica,sans-serif;
+margin: 30px 30px 30px 30px;
+}
+
+
+
+
+
+
+
+#Plaatje
+
+{
+
+border :solid 1px  gold;
+
+font-family: Arial ,Helvetica,sans-serif;
+font-style :  italic;
+color:DarkGoldenrod;
+margin: 25px 25px 25px 25px;
+background-color:Cornsilk;
+padding : 18px 18px 18px 18px; 
+
+border-radius: 15px;
+height : 50px; width: 30px;
+}
+
+#myBtn 
+{
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: solid gold 1px; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: red; 
+  color: gold; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+#myBtn:hover 
+{
+  background-color:red ; /* #555 Add a dark-grey background on hover */
+} 
+
+#fact
+{
+font-style :  italic;font-family: Arial ,Helvetica,sans-serif; font-size: 18px;background-color: Papayawhip;  color:black; border: solid 1px Metallic;
+border-radius: 10px; display: block; margin: auto auto auto auto;
+
+
+
+
+}
+
+
+
+#double { 
+   font-family: Lucida handwriting; font-size: 20px; font-style: italic;
+
+}
+
+
+.bad {  float: right;
+width: 290px; height: 500px; margin: 50px 450px 50px 50px; z-index: -200; transform: rotate(10deg);
+filter: brightness(100%) saturate(100%) contrast(100%) opacity(100%);
+}
+
+h1 { text-align: center; font-size: 50px; color: black; z-index: 200; text-decoration: underline;font-family: sans-serif;
+}
+
+#schilderij {
+ filter: brightness(80%) saturate(75%) contrast(150%) opacity(100%);
+ width: 200px;
+ height: 300px;
+ padding: 50px;
+ border: solid 2px black; 
+ background-color: white; display:block; margin:auto auto auto auto; z-index: 200;
+}
+
+
+#schilderij2 {
+ filter: brightness(80%) saturate(75%) contrast(150%) opacity(100%);
+ width: 200px;
+ height: 300px;
+ padding: 50px;
+ border: solid 2px black; 
+ background-color: white; display:block; margin:auto auto auto auto; z-index: 200;
+}
+
+#schilderij3 {
+ filter: brightness(80%) saturate(75%) contrast(150%) opacity(100%);
+ width: 200px;
+ height: 300px;
+ padding: 50px;
+ border: solid 2px black; 
+ background-color: white; display:block; margin:auto auto auto auto; z-index: 200;
+}
+
+
+#schilderij4 {
+ filter: brightness(80%) saturate(75%) contrast(150%) opacity(100%);
+ width: 200px;
+ height: 300px;
+ padding: 50px;
+ border: solid 2px black; 
+ background-color: white; display:block; margin:auto auto auto auto; z-index: 200;
+}
+
+
+#schilderij5 {
+ filter: brightness(80%) saturate(75%) contrast(150%) opacity(100%);
+ width: 200px;
+ height: 300px;
+ padding: 50px;
+ border: solid 2px black; 
+ background-color: white; display:block; margin:auto auto auto auto; z-index: 200;
+}
+
+
+#schilderij6 {
+ filter: brightness(80%) saturate(75%) contrast(150%) opacity(100%);
+ width: 200px;
+ height: 300px;
+ padding: 50px;
+ border: solid 2px black; 
+ background-color: white; display:block; margin:auto auto auto auto; z-index: 200;
+}
+
+#schilderij7 {
+ filter: brightness(80%) saturate(75%) contrast(150%) opacity(100%);
+ width: 200px;
+ height: 300px;
+ padding: 50px;
+ border: solid 2px black; 
+ background-color: white; display:block; margin:auto auto auto auto; z-index: 200;
+}
+
+
+
+#schilderij8 {
+ filter: brightness(80%) saturate(75%) contrast(150%) opacity(100%);
+ width: 200px;
+ height: 300px;
+ padding: 50px;
+ border: solid 2px black; 
+ background-color: white; display:block; margin:auto auto auto auto; z-index: 200;
+}
+
+
+#schilderij9 {
+ filter: brightness(80%) saturate(75%) contrast(150%) opacity(100%);
+ width: 200px;
+ height: 300px;
+ padding: 50px;
+ border: solid 2px black; 
+ background-color: white; display:block; margin:auto auto auto auto; z-index: 200;
+}
+
+#schilderij10 {
+ filter: brightness(80%) saturate(75%) contrast(150%) opacity(100%);
+ width: 200px;
+ height: 300px;
+ padding: 50px;
+ border: solid 2px black; 
+ background-color: white; display:block; margin:auto auto auto auto; z-index: 200;
+}
+
+#schilderij11 {
+ filter: brightness(80%) saturate(75%) contrast(150%) opacity(100%);
+ width: 200px;
+ height: 300px;
+ padding: 50px;
+ border: solid 2px black; 
+ background-color: white; display:block; margin:auto auto auto auto; z-index: 200;
+}
+
+#schilderij12 {
+ filter: brightness(80%) saturate(75%) contrast(150%) opacity(100%);
+ width: 200px;
+ height: 300px;
+ padding: 50px;
+ border: solid 2px black; 
+ background-color: white; display:block; margin:auto auto auto auto; z-index: 200;
+}
+
+#schilderij13 {
+ filter: brightness(80%) saturate(75%) contrast(150%) opacity(100%);
+ width: 200px;
+ height: 300px;
+ padding: 50px;
+ border: solid 2px black; 
+ background-color: white; display:block; margin:auto auto auto auto; z-index: 200;
+}
+
+#schilderij14 {
+ filter: brightness(80%) saturate(75%) contrast(150%) opacity(100%);
+ width: 200px;
+ height: 300px;
+ padding: 50px;
+ border: solid 2px black; 
+ background-color: white; display:block; margin:auto auto auto auto; z-index: 200;
+}
+
+#schilderij15 {
+ filter: brightness(80%) saturate(75%) contrast(150%) opacity(100%);
+ width: 200px;
+ height: 300px;
+ padding: 50px;
+ border: solid 2px black; 
+ background-color: white; display:block; margin:auto auto auto auto; z-index: 200;
+}
+
+
+#schilderij16 {
+ filter: brightness(80%) saturate(75%) contrast(150%) opacity(100%);
+ width: 200px;
+ height: 300px;
+ padding: 50px;
+ border: solid 2px black; 
+ background-color: white; display:block; margin:auto auto auto auto; z-index: 200;
+}
+
+
+p
+{  
+text-align: center;
+ font-family: monospace;
+
+
+} 
+
+
+.Movie
+{
+
+z-index: 50;
+border-radius: 20px;
+width: 300px; height: 150px;
+border: solid black 2px;
+background-color:Silver;
+display: block;
+margin: auto auto auto auto;
+}
+
+#Disco { filter: brightness(102%) contrast(125%) saturate(115%) opacity(75%) blur(3px);
+ transform: rotate(0deg);
+ background-color: Black; height: 135px; float: right; margin-right: 50px;
+width:120px;  border-radius: 20px;
+
+z-index:-250;
+}
+
+.Bubbles {
+
+ 
+  background-color: Brown; margin: 0 0 0 0 ;  
+height: 200px; filter: opacity(50%); z-index: -100;
+width: 200px;
+}
+
+.grid-container  {
+display: grid;
+gap: 2px;
+}
+
+.footer  {
+display: flex;
+grid-column: span 2;
+}
+
+.item  {  
+font-size: 10px;
+background-color: crimson;
+padding: 20px;
+margin: -10px -10px -10px -10px;
+text-align: center;
+}
+
+
+#bull { 
+height: 40px; width: 50px;
+filter:brightness(110%)contrast(115%)saturate(110%) opacity(75%);
+border-radius: 5px;
+z-index: -100;
+}
+
+
+.eye  {  color: crimson; font-size: 15px;
+position: relative; text-align: center;
+z-index: -100; margin: 5px 5px -5px 5px;
+}
+
+#icon { width: 140px; height: 115px; z-index: -200; 
+filter: brightness(105%) saturate(110%) contrast(105%) opacity( 75%);transform: rotate(0deg);
+ border: solid 1px #000000; border-radius: 5px; float: left; margin-left: 35px;  
+}
+.Sesame {
+padding: 3px 3px 3px 3px Silver;  height: 80px; width: 120px; background-color: black; color: silver; font-family: Arial, Helvetica, sans-serif;
+border-radius: 30px 30px 30px 30px ; font-size: 20px;  text-align: center; z-index: 100;
+margin: 10px 6px 1px 56px; font-style: italic; font-weight:600;
+}
+
+
+.Glasses {
+filter: brightness(120%) saturate(120%) contrast(110%) opacity(100%);
+ transform: rotate(20deg);
+background-color: Black; margin: auto auto auto auto ; height: 285px;
+width:215px;
+z-index: -100;
+}
+.container {
+ display: flex; 
+ background-color: #edc9b5;
+ flex-direction: column-reverse;
+ width: 170px;
+justify-content: space-around; z-index: -100;
+}
+
+.item {
+ margin: 10px;
+ padding: 10px;
+ width: 130px;
+ height: 100px;
+
+}
+
+.container, .item {
+ border-radius: 20px;
+}
+
+.foto { text-align: center; font-size: 20px; color: maroon; z-index: -200; text-decoration: underline;
+}
+
+ .lam { width: 90px; height: 90px; z-index: 0;  
+   transform: rotate(4deg);
+float: left; margin-left: 40px;  filter: opacity(75%);
+}
+.wood { 
+
+padding :2px 2px 2px 2px Gold;  height: 16px; width: 40px; background-color:silver; 
+color: brown;   font-size: 10px;
+  border-radius: 10px;    font-family: Arial ,Helvetica,sans-serif;
+text-align: center;  z-index: -26; filter: grayscale(30%); font-weight:600;
+
+ float: left; margin: 5px -7px 5px 5px;
+
+}
+
+.add {  float: left;
+font-style: italic; color: crimson; font-size: 15px; z-index: -300;
+}
+
+
+.icon { width: 250px; height: 200px; z-index: 100; 
+filter: brightness(115%) saturate(105%) contrast(115%) opacity( 75%) ; margin-left :5px ; transform: rotate(-4deg);
+float: left; margin-bottom: 50px; margin-top: -101px; 
+}
+
+
+.pipi
+{
+padding :2px 2px 2px 2px Gold;  height: 16px; width: 25px;  font-family: papyrus; color: black;  background-color: red;
+font-size: 6px; filter: grayscale(30%);
+text-align: center;  z-index: -26;  font-weight: 600;
+
+ float: left; margin-left: 40px; margin-top: 6px;
+
+} 
+.popi
+{
+padding :2px 2px 2px 2px Gold;  height: 16px; width: 25px;  font-family: papyrus; color: black;  background-color: cornsilk;
+   font-size: 6px; 
+    
+text-align: center;  z-index: -26;  font-weight: 600;
+
+ float: left; margin-left: -25px; margin-top: 20px; 
+
+}
+
+.in {  font-size: 10px;  font-family: papyrus; color: black; text-align: center; background-color: gold;
+ margin-right: 5px;   z-index: 0; Font-weight: 600; height: 22px; width: 33px; float: right; border-radius: 3px;margin-top: 90px;
+} 
+
+.out{  font-size: 10px;  font-family: papyrus; color: black; text-align: center;
+ margin-right: -33px;  z-index: 0; Font-weight: 600; background-color:cornsilk;
+ height: 22px; width: 33px;float: right; border-radius: 3px; margin-top: 110px;
+
+}
+
+.Ripper
+{
+display: none;
+}
+
+
+.bad {  float: right;
+width: 100px; height: 200px; margin: 50px 450px 50px 50px; z-index: -200; transform: rotate(10deg);
+filter: brightness(100%) saturate(100%) contrast(100%) opacity(100%);
+}
+
+.tiet  {  text-align: center; color:crimson; text-decoration: underline; font-size: 30px; font-style: italic; z-index: 200;
+}
+
+
+.darkMode {
+background: black;
+color: white;
+}
+
+.bg-white {
+background-color:white;
+} 
+
+header {
+background: darkgray;
+padding: 10px 0px;
+margin-bottom: 10px;
+}
+
+.light {
+margin: 5px 5px;
+padding: 8px 8px 8px 8px;
+min-width: 80px;
+max-width: 120px;
+border-radius: 5px;
+font-weight: 700;
+
+outline: none;z-index: 200;
+background-color:black;
+color: silver;
+}
+
+
+.balk  {  border: solid 2px black; background-color: chocolate; z-index: -400; border-radius: 50px;
+}
+
+
+
+
+#main  {
+
+z-index: -200;
+}

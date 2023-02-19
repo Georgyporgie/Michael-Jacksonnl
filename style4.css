@@ -1,0 +1,1000 @@
+
+body { 
+background : linear-gradient(90deg,orangered,firebrick);
+
+margin: 2px 5px 2px 5px ;
+}
+
+
+
+.Brooke 
+ {
+
+font-family: Arial ,Helvetica,sans-serif;
+font-style :  italic;
+color:Black;
+margin: 5px 5px 5px 5px;
+font-weight: 400;
+font-size: 20px;
+z-index: 0;
+}
+
+
+
+#Innocent
+
+
+
+
+{ 
+padding : 3px 3px 3px 3px; font-style :  italic;  color:Gold; text-align: center; background-color: silver;
+
+ font-size: 19px;
+ border-radius: 30px; font-weight: bold; font-family: Arial ,Helvetica,sans-serif;
+margin: 60px 30px 30px 30px;
+height :180px;
+width  :250px;
+border: solid 1px silver;
+ margin : auto auto auto auto;
+}
+
+
+
+.Liz
+{
+border-radius: 50px;
+padding :4px 4px 4px 4px; display : none;
+ border :solid 1px  silver; font-size: 40px;
+color:white; text-align: center;  font-style :  italic;  background-color: silver; margin: 0 0 0 0 ;  font-family: Arial ,Helvetica,sans-serif; 
+height :40px;
+width:200px;
+}
+
+.Legend {
+padding :30px 30px 30px 30px;
+ border :solid 3px  silver; font-size: 75px; font-style: italic;
+color:silver; text-align: center;    background-color: Black;  margin: -26px -40px -0px -10px;  font-family: Arial ,Helvetica,sans-serif; z-index: -300;
+}
+
+
+.King
+
+
+
+
+{ 
+padding : 4px 4px 4px 4px; font-style :  italic;  color:Gold; text-align: center; background-color: Crimson;
+filter: brightness(100%) saturate(100%) contrast(100%) opacity(100%);
+ z-index: -1;
+ border-radius: 100px; font-weight: bold; font-family: Arial ,Helvetica,sans-serif;
+margin: 30px 30px 30px 30px;
+height :750px;
+width:525px;
+display: block;
+ margin : auto auto auto auto;
+}
+.Lovely
+
+
+
+
+{ 
+padding : 5px 5px 5px 5px; font-style :  italic;  color:Gold; text-align: center; background-color: Crimson;
+
+ font-size: 19px;
+ border-radius: 30px; font-weight: bold; font-family: Arial ,Helvetica,sans-serif;
+margin: 30px 30px 30px 30px;
+height :1000px;
+width:750px;
+border: solid 1px silver;display: block;
+ margin : auto auto auto auto;
+}
+
+.Discokid
+
+
+
+
+{ 
+padding : 1px 1px 1px 1px; font-style :  italic;  color:lightblue;  background-color: lightblue;
+ filter: brightness(120%) contrast(120%) saturation(115%) opacity(100%);
+ z-index: -1;
+ border-radius: 50px; 
+margin :80px 30px 30px 30px;
+height :210px;
+width:130px;
+border: solid 1px silver;
+}
+
+.Golden
+{
+border-radius: 50px;
+padding :5px 5px 5px 5px;
+ border :solid 1px  silver; font-size: 40px;
+color:white; text-align: center;  font-style :  italic;  background-color: gold; margin: 0 0 0 0 ;  font-family: Arial ,Helvetica,sans-serif; 
+height :40px;
+width:200px;
+}
+
+
+#Menu
+{
+background-color: orangeRed;
+border:none;
+color: black;
+padding: 3px 10px;
+text-align: center;
+text-decoration: none;
+
+font-size: 15px;
+height: 25px;
+cursor: pointer;
+float: left;
+width: 14.27%;
+z-index: 0;
+}
+
+
+
+#Proceed
+{
+font-style :  italic;font-family: Arial ,Helvetica,sans-serif; font-size: 17px;background-color: Papayawhip;  color:crimson; border: solid 2px Metallic;
+border-radius: 10px; display: block; margin: auto auto auto auto; font-size: 30px; height: 75px;width: 10.27%;
+
+
+
+
+
+}
+
+.fo_audio
+
+{
+border-radius: 50px;
+padding :3px 3px 3px 3px; 
+ border :solid 1px  silver; 
+color:#add8e6; text-align: center;  font-style :  italic;  background-color: silver; margin: 0 0 0 0 ;  
+height :40px;
+width:200px;
+}
+
+.Annie {
+filter:brightness(110%) saturate(103%)contrast(115%) opacity(100%);
+ transform: rotate(65deg);
+ background-color: Black; margin: auto auto auto auto ; height: 165px;
+width:150px;
+z-index: -30;
+}
+
+#Okay {
+
+ transform: rotate(-45deg);
+ background-color: Black; margin: auto auto auto auto ; height :165px;
+width:150px;
+}
+
+.Beauty {
+filter: brightness(100%) contrast(110%) saturation(100%) opacity(100%);
+ transform: rotate(0deg);
+ background-color: Black; margin: auto auto auto auto ; height: 165px;
+width:150px;
+z-index: -50;
+}
+
+
+.Lion
+
+
+
+
+
+
+{ 
+padding : 5px; font-style :  italic;  color:Gold; text-align: center; background: linear-gradient(225deg,pink, purple,darkBlue);
+filter: brightness(105%) saturate(100%) contrast(105%) opacity(100%);
+ z-index: -50;
+ border-radius: 100px; font-weight: bold; font-family: Arial ,Helvetica,sans-serif;
+margin: 30px 30px 30px 30px;
+height :700px;
+width:475px;
+display: block;
+ margin : auto auto auto auto;
+}
+
+.Pet {
+filter: brightness(100%) saturate(100%) contrast(100%) opacity(80%);
+ transform: rotate(45deg);
+background-color: Lightblue; margin: auto auto auto auto ; height: 185px;
+width:155px;
+
+float: right; z-index: -50;
+}
+
+.Bril {
+
+ transform: rotate(5deg);
+background-color: Lightblue; margin: 5px 500px 5px 5px; height: 300px;
+width:230px;
+float: right; z-index: 0;
+}
+
+.DJ  {
+height: 350px; width : 300px;
+background-color: lightBlue;
+z-index: -1;
+filter: brightness(120%) saturate(110%) contrast(125%) opacity(100%);
+filter: blur(1px);
+display: block; margin: auto auto auto auto;
+transform: rotate(-25deg);
+}
+
+.pik { display: none;
+}
+
+.welcome {  font-size: 15px; font-style: italic; font-family: papyrus; color: black; text-align: center;
+ margin: 5px 5px 5px 5px; z-index: -100; border: solid 2px black; height: 29px; width: 94px; padding: 1px 1px 1px 1px;
+} 
+
+#feit {  font-size: 30px; font-style: italic; font-family: papyrus; color: black; text-align: center;
+} 
+
+.couch { width: 400px; height: 300px; z-index: -100;
+filter: brightness(110%) saturate(100%) contrast(110%)  opacity(75%); margin: 5px 750px 400px 5px; transform: rotate(-1deg);
+float: right;
+
+}
+
+.jackson { width: 145px; height: 140px; z-index: -125; border: solid 1px #333333;
+filter: brightness(105%) saturate(100%) contrast(105%) opacity( 75%); margin: auto auto auto auto; transform: rotate(0deg);
+display: block; border-radius: 4px;
+}
+
+.pop { width: 415px; height: 435px; z-index: -75;
+filter: brightness(120%) saturate(120%) contrast(115%)  opacity(75%); margin: 5px 5px 5px 300px; transform: rotate(-5deg);
+float: right;
+
+}
+
+.dress { width: 290px; height: 170px; z-index: 5;
+filter: brightness(105%) saturate(120%) contrast(115%)  opacity(75%); margin: 5px 5px 5px 1000px; transform: rotate(2deg);
+float: right;
+
+}
+
+.grammo { width: 85px; height: 120px; z-index: -75; 
+filter: brightness(110%) saturate(110%) contrast(115%) opacity( 75%); margin: 100px 5px 5px 500px ; transform: rotate(3deg);
+float: left;
+}
+.record { width: 75px; height: 70px; z-index: -50; 
+filter: brightness(100%) saturate(100%) contrast(100%) opacity(65%); margin: 90px 800px 5px 63px ; transform: rotate(2deg);
+float: right;
+}
+
+.plaat { width: 75px; height: 70px; z-index: -49; 
+filter: brightness(100%) saturate(100%) contrast(100%) opacity(65%); margin: 50px 5px 5px 63px ;  transform: rotate(75deg);
+float: right;
+}
+
+.old { width: 115px; height: 85px; z-index: -48; 
+filter: brightness(120%) saturate(110%) contrast(120%) opacity(75%); margin-bottom: 50px; transform: rotate(9deg);
+float: right;
+}
+
+
+
+
+
+
+
+.theme {
+background-color: #9999FF;
+height: 1000px; z-index: -150; border-radius: 0px;
+}
+
+#icon { width: 140px; height: 115px; z-index: 0; 
+filter: brightness(115%) saturate(120%) contrast(110%) opacity( 75%);transform: rotate(0deg);
+ border: solid 1px #000000; border-radius: 5px; float: left; margin-left: 35px;
+}
+
+.on {  font-size: 6px;  font-family: papyrus; color: black; text-align: center; background-color: red;
+ margin-left: 75px; z-index: -600; Font-weight: bold; height: 15px; width: 26px;float: left;
+} 
+
+.off {  font-size: 6px;  font-family: papyrus; color: black; text-align: center;
+  margin-left: 75px; z-index: -600; Font-weight: bold; background-color: cornsilk;
+height: 15px; width: 26px; float: left;  margin-top: -5px;
+
+} 
+
+#huis {  
+color: blue;
+}
+
+#list  {
+
+color: gold;
+}
+
+.door {  z-index: -175; filter: brightness(115%) saturate(120%) contrast(115%) opacity(75%); transform: rotate(-1deg); width: 490px; height: 365px;
+}
+
+#jackso  { 
+color: crimson;
+
+}
+
+#mixes { 
+color: darkgreen;
+
+}
+
+.Aud
+
+{
+border-radius: 30px;
+padding :3px 3px 3px 3px; 
+ border :solid 1px orange; 
+color:blue;   background-color: orange; margin: auto auto auto auto;  
+height :20px;
+width:200px; display: block;
+}
+
+.Together {
+
+text-align: center;
+font-size: 35px; color: aliceBlue; text-decoration: underline; z-index: -200;
+}
+
+
+/* Using flex with the column direction to
+   align items in a vertical direction */
+.player {
+  height: 95vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+ 
+.details {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 25px;
+}
+ 
+.track-art {
+  margin: 25px;
+  height: 250px;
+  width: 250px;
+  background-image: URL(
+     "https://source.unsplash.com/Qrspubmx6kE/640x360");
+  background-size: cover;
+  background-position: center;
+  border-radius: 15%; z-index: -200; transform: rotate(0deg); filter: opacity(80%);
+}
+ 
+/* Changing the font sizes to suitable ones */
+.now-playing {
+  font-size: 1rem;
+}
+ 
+.track-name {
+  font-size: 3rem;
+}
+ 
+.track-artist {
+  font-size: 1.5rem;
+}
+ 
+/* Using flex with the row direction to
+   align items in a horizontal direction */
+.buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+ 
+.playpause-track,
+.prev-track,
+.next-track {
+  padding: 25px;
+  opacity: 0.8;
+ 
+  /* Smoothly transition the opacity */
+  transition: opacity .2s;
+}
+ 
+/* Change the opacity when mouse is hovered */
+.playpause-track:hover,
+.prev-track:hover,
+.next-track:hover {
+  opacity: 1.0;
+}
+ 
+/* Define the slider width so that it scales properly */
+.slider_container {
+  width: 75%;
+  max-width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ 
+/* Modify the appearance of the slider */
+.seek_slider, .volume_slider {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  height: 5px;
+  background: black;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+ 
+/* Modify the appearance of the slider thumb */
+.seek_slider::-webkit-slider-thumb,
+.volume_slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 15px;
+  height: 15px;
+  background: white;
+  cursor: pointer;
+  border-radius: 50%;
+}
+ 
+/* Change the opacity when mouse is hovered */
+.seek_slider:hover,
+.volume_slider:hover {
+  opacity: 1.0;
+}
+ 
+.seek_slider {
+  width: 60%;
+}
+ 
+.volume_slider {
+  width: 30%;
+}
+ 
+.current-time,
+.total-duration {
+  padding: 10px;
+}
+ 
+i.fa-volume-down,
+i.fa-volume-up {
+  padding: 10px;
+}
+ 
+/* Change the mouse cursor to a pointer
+   when hovered over */
+i.fa-play-circle,
+i.fa-pause-circle,
+i.fa-step-forward,
+i.fa-step-backward {
+  cursor: pointer;
+}
+
+#tem  {
+font-style: monospace; font-size: 15px;  margin: 5px 5px 5px 500px; text-decoration: underline;
+}
+
+
+#medium {  background-color: white; font-size: 20px;
+margin: 50px 1200px 100px 50px; z-index: -200; padding: 25px;
+border: solid 3px silver; 
+
+}
+
+
+
+.with {
+
+text-align: center; text-decoration: underline;
+font-size: 50px; color: aliceBlue;  z-index: -300; transform: rotate(0deg);font-family: Candara; font-style: italic;
+}
+
+.time {
+padding: 1px 1px 1px 1px;  height: 50px; width: 90px; background-color: silver; color: black; font-family: Arial, Helvetica, sans-serif;
+border-radius: 30px 30px 30px 30px ; font-size: 15px; border: solid 1px gold;
+margin: 10px -600px 1px 56px; float: right; transform: rotate(0deg); z-index: -100; 
+}
+
+
+.party  {  
+float: left; position: absolute; margin: 16px 11px 5px 2px;  font-size: 15px; color: crimson; font-weight: bold; z-index: 0; background-color:#00CC00; border-radius: 2px;
+}
+
+.ferry  {
+height: 100px; width: 100px;  float: right; border-radius: 10px; margin-right: -250px; filter: opacity(75%); z-index: -100;
+transform: rotate(-1deg); filter: brightness(105%)saturation(100%) contrast(100%) opacity(75%);
+
+}
+
+.gloeilamp { 
+float: right;
+ filter: brightness(110%)saturation(100%) contrast(100%) opacity(75%); z-index: -28; transform: rotate(-1deg);
+width: 145px; height: 150px;  border-radius: 5px; margin: 50px 10px 5px 5px; 
+
+}
+
+
+.Deel 
+{
+padding :2px 2px 2px 2px Gold;  height: 16px; width: 25px; background-color:silver; 
+color: black;  font-style :  italic;  font-size: 10px;
+  border-radius: 5px;    font-family: Arial ,Helvetica,sans-serif;
+text-align: center;  
+ z-index: -200; float: right; margin-right: -5px; z-index: -26;
+
+}
+
+.staat 
+{
+padding :2px 2px 2px 2px Gold;  height: 16px; width: 25px; background-color:silver; 
+color: black;  font-style :  italic;  font-size: 10px;
+  border-radius: 5px;    font-family: Arial ,Helvetica,sans-serif;
+text-align: center;  z-index: -200;
+
+ float: right; margin-right: -5px;
+
+}
+.bar { width: 175px; height: 155px; z-index: -102; 
+filter: brightness(110%) saturate(110%) contrast(110%) opacity(75%);  transform: rotate(-2deg); margin: auto auto auto auto;
+ border-radius: 4px; display: block; 
+}
+
+.lamp { 
+width: 200px; height: 125px; z-index: -150; margin-left: 5px; margin-top: -200px;
+filter: brightness(115%) saturate(115%) contrast(115%) opacity(75%);  transform: rotate(-1deg);
+}
+
+
+
+.kroon {  z-index: 0; filter: brightness(105%) saturate(105%) contrast(110%) opacity(75%); transform: rotate(0deg); display: block; margin: auto auto auto auto;width: 125px; height: 190px;
+}
+
+.kap { width: 105px; height: 100px; z-index: -150; margin-left: 5px; margin-top: -200px; display: block;
+filter: brightness(115%) saturate(115%) contrast(115%) opacity( 75%);  transform: rotate(0deg);
+}
+ 
+.woman { width: 150px; height: 230px; z-index: -150;  margin-top: -200px; margin-left: 1710px;
+filter: brightness(115%) saturate(115%) contrast(115%) opacity( 75%);  transform: rotate(2deg); float: right;
+}
+
+.hout { width: 95px; height: 115px; z-index: -200; 
+ margin-left: -50px ; transform: rotate(4deg);
+float: left; margin-left: 40px;
+}
+
+.aqua {  z-index: 0; filter: brightness(115%) saturate(120%) contrast(120%) opacity(75%); transform: rotate(0deg);
+float: right; width: 250px; height: 140px; border:  solid 2px black; margin-right: 10px;
+
+}
+
+.ball {  z-index: -300; filter: brightness(115%) saturate(100%) contrast(115%) opacity(75%); transform: rotate(0deg); display: block; margin: auto auto auto auto;width: 100px; height: 100px;
+}
+
+
+.soul  {  
+border: solid black 1px;
+float: right; border-radius: 10px; z-index: -200; margin-right: 25px; transform:rotate(0deg);
+}
+
+.disc {
+
+float: right;
+font-size: 16px; color: black;  z-index: -200; transform: rotate(0deg); margin-right: 5px; margin-bottom: -200px;
+margin-top: 30px;
+
+}
+
+.plant { width: 150px; height: 200px; z-index: -200; 
+filter: brightness(105%) saturate(100%) contrast(110%) opacity( 75%); margin-right: -20px ; transform: rotate(6deg);
+float: right; 
+}
+
+.wom 
+{
+padding :2px 2px 2px 2px Gold;  height: 11px; width: 20px; background-color:silver; 
+color: black;    font-size: 5px;
+  border-radius: 1px;    font-family: Arial ,Helvetica,sans-serif;
+text-align: center;  float: left;
+float: left;  z-index: -200;
+margin: -2px 5px -5px 900px;
+}
+
+.ane
+{
+padding :2px 2px 2px 2px Gold;  height: 11px; width: 20px; background-color:silver; 
+color: black;   font-size: 5px;
+  border-radius: 1px;    font-family: Arial ,Helvetica,sans-serif;
+text-align: center;  z-index: -200; 
+
+ margin: 5px 5px -5px 900px;
+
+}
+.pek 
+{
+padding :2px 2px 2px 2px Gold;   height: 16px; width: 25px; background-color:silver; 
+color: black;  font-style :  italic;  font-size: 10px;
+  border-radius: 5px;    font-family: Arial ,Helvetica,sans-serif;
+text-align: center;  
+ z-index: -200; float: left; margin: 5px 10px 5px 5px; z-index: -200;
+
+}
+
+.veren
+{
+padding :2px 2px 2px 2px Gold;  height: 16px; width: 25px; background-color:silver; 
+color: black;  font-style :  italic;  font-size: 10px;
+     font-family: Arial ,Helvetica,sans-serif;
+text-align: center;  z-index: -200; border-radius: 5px;
+
+ float: left; margin: 5px -7px 5px 5px;
+
+} 
+.click  {  position: absolute; margin-left: 268px; font-size: 20px; color:crimson;  z-index: -200; transform: rotate(0deg);
+}
+
+.spot{  width: 100px; height: 100px; margin-left:  680px; z-index: 0;  margin-bottom: 90px;transform: rotate(-2deg);
+filter: brightness(110%) saturate(100%) contrast(110%) opacity(75%);
+
+}
+
+.floor{
+ margin-left: 800px; filter: brightness(110%) saturate(105%) contrast(110%)  opacity(75%);
+width: 200px; height: 200px; z-index: -300;border-radius: 0px; border: solid 1px lightBlue; transform: rotate(0deg);
+}
+
+.world { width: 88px; height: 89px; z-index: 0;
+filter: brightness(110%) saturate(120%) contrast(115%)  opacity(70%); transform: rotate(0deg); margin-right: 80px;
+float: right;
+
+}
+
+.bloem { width: 170px; height: 250px; z-index: -200; 
+filter: brightness(100%) saturate(100%) contrast(100%) opacity( 75%); margin-right :-350px ; transform: rotate(-6deg);
+float: right; margin-bottom: 100px;
+}
+
+
+.vibe { width: 130px; height: 170px; z-index: -200; 
+filter: brightness(105%) saturate(100%) contrast(110%) opacity( 75%); margin-left :-50px ; transform: rotate(-7deg);
+float: left; margin-bottom: 100px;
+}
+
+.air  {
+height: 35px; width: 90px; float: right; margin-right: 80px; filter: brightness(115%) saturate(105%) contrast(110%) opacity(75%); z-index: -25;
+transform: rotate(0deg); margin-bottom: 50px; margin-top: 50px;
+
+}
+
+.wind  {
+height: 30px; width: 80px; float: left;  margin-left: -100px; filter: opacity(75%); z-index: -25;
+transform: rotate(0deg);
+
+}
+
+.trans
+{
+padding :2px 2px 2px 2px Gold;  height: 16px; width: 25px; background-color:silver; 
+color: black;  font-style :  italic;  font-size: 10px;
+  border-radius: 5px;    font-family: Arial ,Helvetica,sans-serif;
+text-align: center;  
+ z-index: -200; float: left; margin: 5px 10px 5px 5px; z-index: -26;
+
+}
+
+.atlantic
+{
+padding :2px 2px 2px 2px Gold;  height: 16px; width: 25px; background-color:silver; 
+color: black;  font-style :  italic;  font-size: 10px;
+  border-radius: 5px;    font-family: Arial ,Helvetica,sans-serif;
+text-align: center;  z-index: -200;
+ float: left; margin: 5px -7px 5px 5px;
+
+}
+
+.gone  {
+height: 30px; width: 80px; display: block; filter: brightness(115%) saturate(110%) contrast(110%) opacity(75%); z-index: -25;
+transform: rotate(0deg); margin-left: 50px;
+
+}
+
+.live {
+height: 45px; width: 90px; display: block; filter: opacity(75%) brightness(115%) saturate(105%) contrast(110%); z-index: -25;
+transform: rotate(0deg);margin: auto auto auto auto;
+
+}
+
+.cubic { width: 205px; height: 165px; z-index: -200; 
+filter: brightness(110%) saturate(100%) contrast(110%) opacity( 75%); margin-left :5px ; transform: rotate(1deg);
+float: left; margin-bottom: 80px;
+}
+
+.red { width: 205px; height: 195px; z-index: -200; 
+filter: brightness(100%) saturate(100%) contrast(100%) opacity( 75%); margin-right :50px ; transform: rotate(3deg);
+float: right; margin-bottom: 100px; margin-top: -200px;
+}
+
+.blue { width: 140px; height: 210px; z-index: -80; 
+filter: brightness(115%) saturate(120%) contrast(115%) opacity( 75%); margin-right: -1050px; transform: rotate(-3deg);
+float: right; margin-bottom: 100px; margin-top: -200px;
+}
+
+.smoke { width: 200px; height: 200px; z-index: -100; 
+filter: brightness(115%) saturate(105%) contrast(115%) opacity( 75%) ; margin-left :5px ; transform: rotate(-4deg);
+float: left; margin-bottom: 50px; margin-top: -170px; 
+}
+
+.pipe  {  
+width: 100px; height: 150px; margin-left: -153px;
+margin-top: -79px; z-index: -400; transform: rotate(0deg); margin-bottom: 150px;
+filter: opacity(75%) brightness(105%) saturate(105%) contrast(115%);
+} 
+
+.wood { 
+
+padding :2px 2px 2px 2px Gold;  height: 16px; width: 40px; background-color:silver; 
+color: black;   font-size: 10px;
+  border-radius: 5px;    font-family: Arial ,Helvetica,sans-serif;
+text-align: center;  z-index: -200; filter: grayscale(30%);
+
+ float: left; margin: 5px -7px 5px 5px;
+
+} 
+ .lam { width: 100px; height: 100px; z-index: -200; 
+ margin-left: -50px ; transform: rotate(4deg);
+float: left; margin-left: 40px;  filter: opacity(75%);
+}
+
+.rit { width: 135px; height: 125px; z-index: -200; 
+ margin-left: -50px ; transform: rotate(-2deg);
+float: left; margin-left: 40px;  filter: opacity(75%) brightness(110%) saturate(110%) contrast(110%);
+}
+
+.straat 
+{
+padding :2px 2px 2px 2px Gold;  height: 16px; width: 25px; background-color:silver; 
+color: black;  font-style :  italic;  font-size: 10px;
+  border-radius: 5px;    font-family: Arial ,Helvetica,sans-serif;
+text-align: center;  margin-bottom: -12px; 
+ z-index: -200; float: right; margin-right: 50px; z-index: -26;  margin-top: 60px;
+}
+
+.race
+{
+padding :2px 2px 2px 2px Gold;  height: 16px; width: 25px; background-color:silver; 
+color: black;  font-style :  italic;  font-size: 10px;
+  border-radius: 5px;    font-family: Arial ,Helvetica,sans-serif;
+text-align: center;  z-index: -200; 
+ float: right; margin-right: -25px; margin-bottom: -12px; margin-top: 56px;
+
+}
+
+.drink
+{
+padding :1px 1px 1px 1px Gold;  height: 16px; width: 40px; background-color:silver; 
+color: black;  font-style :  italic;  font-size: 10px;
+  border-radius: 5px;    font-family: Arial ,Helvetica,sans-serif;
+text-align: center;  z-index: -200; 
+
+ float: left; margin: 5px -7px 5px 5px;
+
+}
+
+.light  {
+height: 65px; width: 70px; float: right; margin-right: 15px; filter: brightness(115%) saturate(135%) contrast(115%) opacity(75%); z-index: -25;
+transform: rotate(0deg);
+
+}
+
+.disco
+{
+padding :2px 2px 2px 2px Gold;  height: 16px; width: 25px; background-color:silver; 
+color: black;  font-style :  italic;  font-size: 10px;
+  border-radius: 5px;    font-family: Arial ,Helvetica,sans-serif;
+text-align: center;  
+ z-index: -200; float: right; margin-right:150px; z-index: -26; margin-top: 50px;margin-bottom: -12px
+
+}
+
+.kid
+{
+padding :2px 2px 2px 2px Gold;  height: 16px; width: 25px; background-color:silver; 
+color: black;  font-style :  italic;  font-size: 10px;
+  border-radius: 5px;    font-family: Arial ,Helvetica,sans-serif;
+text-align: center;  z-index: -200;
+
+ float: right; margin-right: -25px; margin-bottom: -10px; margin-top: 46px;
+
+}
+
+.chair { width: 355px; height: 220px; z-index: 1; 
+filter: brightness(125%) saturate(120%) contrast(115%) opacity(100%); margin-right: -1330px; transform: rotate(3deg);
+float: right; margin-bottom: 200px; margin-top: -161px;
+}
+.table { width: 155px; height: 145px; z-index: -100; 
+filter: brightness(115%) saturate(110%) contrast(115%) opacity( 75%); margin-left :5px ; transform: rotate(1deg);
+float: right; margin-bottom: 80px; margin-right: -300px; margin-top: 300px;
+}
+
+
+.kouw{ width: 140px; height: 175px; z-index: -100; 
+filter: brightness(120%) saturate(125%) contrast(115%) opacity( 75%); margin-left :-45px ; transform: rotate(5deg);
+float: left; margin-bottom: 100px;
+}
+.leave { width: 150px; height: 150px; z-index: -200; 
+filter: brightness(100%) saturate(100%) contrast(100%) opacity( 75%); margin-left :5px ; transform: rotate(-1deg);
+float: right; margin-bottom: 80px; margin-right: -325px; margin-top: 220px;
+}
+
+
+.green { width: 175px; height: 175px; z-index: -200; 
+filter: brightness(105%) saturate(100%) contrast(110%) opacity( 75%); margin-right: -1060px; transform: rotate(1deg);
+float: right; margin-bottom: 120pxpel; margin-top: -100px;
+}
+.yellow{
+ margin-left: 620px; filter: brightness(110%) saturate(110%) contrast(110%) opacity( 75%); margin-top: 1px; margin-bottom: 50px;
+width: 130px; height: 210px; z-index: -200;border-radius: 0px; transform: rotate(-7deg);
+}
+
+.black{
+ margin-left: 300px; filter: brightness(110%) saturate(110%) contrast(110%) opacity( 75%); margin-top: 1px; margin-bottom: 50px;
+width: 120px; height: 200px; z-index: -200;border-radius: 0px; transform: rotate(5deg); margin-right: 500px;
+}
+
+.glasses { width: 85px; height: 90px; z-index: -100; 
+filter: brightness(115%) saturate(115%) contrast(115%) opacity( 75%); margin-left :-5px ; transform: rotate(-2deg);
+float: right; margin-bottom: 80px; margin-right: -240px; margin-top: 295px;
+}
+.dua{ width: 110px; height: 90px; z-index: -50; 
+filter: brightness(110%) saturate(105%) contrast(110%) opacity(75%); transform: rotate(-11deg);
+float: right; margin-right: 10px; 
+}
+
+.klas
+{
+padding :2px 2px 2px 2px Gold;  height: 16px; width: 25px; background-color:silver; 
+color: black;  font-style :  italic;  font-size: 10px;
+  border-radius: 5px;    font-family: Arial ,Helvetica,sans-serif;
+text-align: center;  
+ z-index: -200; float: right; margin-right: -5px; z-index: -26;
+
+}
+
+.lokaal
+{
+padding :2px 2px 2px 2px Gold;  height: 16px; width: 25px; background-color:silver; 
+color: black;  font-style :  italic;  font-size: 10px;
+  border-radius: 5px;    font-family: Arial ,Helvetica,sans-serif;
+text-align: center;  z-index: -200;
+ float: right; margin-right: -5px; margin-left: -10px;
+
+}
+
+.can 
+{
+padding :2px 2px 2px 2px Gold;  height: 16px; width: 25px; background-color:silver; 
+color: gold;  font-style :  italic;  font-size: 10px;
+  border-radius: 5px;    font-family: Arial ,Helvetica,sans-serif;
+text-align: center;  z-index: -26; border: solid 1px black;
+
+ float: right; margin-right: 13px; margin-left: 5px;
+
+}
+.pipi
+{
+padding :2px 2px 2px 2px Gold;  height: 16px; width: 25px;  font-family: papyrus; color: black;  background-color: red;
+   font-size: 6px; filter: grayscale(30%);
+    
+text-align: center;  z-index: -200;  font-weight: bold;
+
+ float: left; margin-left: -15px; margin-top: 6px;
+
+} 
+.popi
+{
+padding :2px 2px 2px 2px Gold;  height: 16px; width: 25px;  font-family: papyrus; color: black;  background-color: cornsilk;
+   font-size: 6px; 
+    
+text-align: center;  z-index: -200;  font-weight: bold;
+
+ float: left; margin-left: -25px; margin-top: 20px; 
+
+} 
+.white { width: 35px; height: 40px; z-index: -100; 
+filter: brightness(110%) saturate(105%) contrast(115%) opacity( 100%); margin-left :-50px ; transform: rotate(25deg);
+float: left; margin-bottom: 100px; margin-right: -135px; margin-top: 105px;
+}
+.you 
+{
+padding :2px 2px 2px 2px Gold;  height: 16px; width: 25px; background-color:silver; 
+color: gold;  font-style :  italic;  font-size: 10px;
+  border-radius: 5px;    font-family: Arial ,Helvetica,sans-serif;
+text-align: center;  z-index: -26; border: solid 1px black;
+
+ float: right; margin-right: -10px; margin-left: 5px;
+
+}
+
+.kaars {
+
+float: right;
+font-size: 16px; color: black;  z-index: -200; transform: rotate(0deg); margin-right: -5px; margin-bottom: -200px;
+margin-top: 30px;
+
+}
+.water  {  
+font-size: 16px; color: black;  z-index: -200; transform: rotate(0deg); margin-right: -5px; margin-bottom: -200px;
+margin-top: 30px; float: right; filter: brightness(110%) saturate(105%) contrast(110%) opacity( 75%);
+}
+
+
+.heal {
+
+float: right;
+font-size: 20px; color: #9966FF;  z-index: -200; transform: rotate(0deg); margin-right: 5px; margin-bottom: -200px;
+margin-top: -75px; font-family: papyrus; z-index: -50; filter:brightness(110%) saturate(105%) contrast(110%) opacity( 75%);
+
+}
+
+.vuur{
+ margin-left:770px; filter: brightness(115%) saturate(115%) contrast(115%)  opacity(75%); 
+width: 270px; height: 230px; z-index: -300;border-radius: 0px;  transform: rotate(0deg);
+}
+
+.pink{
+ margin-left: 620px; filter: brightness(100%) saturate(100%) contrast(100%) opacity( 75%); margin-top: 1px; margin-bottom: 50px;
+width: 150px; height: 260px; z-index: -300;border-radius: 0px; transform: rotate(-12deg);
+}
+
+.floyd{
+ margin-left: 200px; filter: brightness(100%) saturate(100%) contrast(100%) opacity( 75%); margin-top: -250px; margin-bottom: 50px;
+width: 170px; height: 250px; z-index: -300;border-radius: 0px; transform: rotate(10deg); margin-right: 800px;
+}
+
+.radio  {
+font-size: 25px; float: right; transform: rotate(45deg); font-family: papyrus; margin-right: 50px;
+z-index: -100;
+}
+
+.vogel  {   
+float: left; font-size: 25px; color: green; font-family: papyrus; transform: rotate(35deg);
+margin-left: 40px; z-index: -100;
+}
+
+.the {
+padding :30px 30px 30px 30px;
+  font-size: 25px;
+color:silver; text-align: center;    background-color: Black;  margin: -26px -40px -0px -10px;  font-family: Arial ,Helvetica,sans-serif; z-index: -300; border :solid 3px  silver;
+}
+
+
+.change
+{
+padding :1px 1px 1px 1px Gold;  height: 16px; width: 50px; background-color:silver; 
+color: black;  font-style :  italic;  font-size: 10px;
+  border-radius: 5px;    font-family: Arial ,Helvetica,sans-serif;
+text-align: center;  z-index: -200; 
+
+ float: left; margin: 5px -7px 5px 5px;
+
+}
+
+
+.dio {  display: none;
+
+} 
+
+.thrille { display: none;
+}
+
+.Paris {  display: block; margin: auto auto auto auto;
+}
