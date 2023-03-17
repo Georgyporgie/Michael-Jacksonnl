@@ -102,7 +102,7 @@ border: solid 1px black;
 
 
 #Glasses {
-filter: brightness(120%) saturate(120%) contrast(110%) opacity(100%);
+filter: brightness(110%) saturate(120%) contrast(110%) opacity(100%);
  transform: rotate(20deg);
 background-color: Black; margin: auto auto auto auto ; height: 48px;
 width:65px;
@@ -110,7 +110,7 @@ z-index: 125;
 }
 
 #Glove {
-filter: brightness(110%) saturate(120%) contrast(115%) opacity(100%); 
+filter: brightness(110%) saturate(120%) contrast(110%) opacity(100%); 
  transform: rotate(-25deg);
 background-color: Black; margin: auto auto auto auto ; height:42px;
 width:38px;
@@ -231,7 +231,7 @@ z-index: 0; margin-left: 5px ; margin-right: 5px;
 }
 
 #Hat {
-filter: brightness(110%) saturate(105%)contrast(110%) opacity(100%);
+filter: brightness(110%) saturate(120%)contrast(110%) opacity(100%);
  transform: rotate(-45deg);
 background-color: Black; margin: auto auto auto auto ; height: 51px;
 width:71px; border-radius: 81px;
