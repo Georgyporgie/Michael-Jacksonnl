@@ -948,7 +948,7 @@ z-index: -200;
 .lijn  {  border: solid 2px black; background-color: black; z-index: -400; border-radius: 50px;
 }
 
-#collage {  float: right;
-width: 400px; height: 500px; margin: 5px 5px 5px 5px; z-index: -200; transform: rotate(10deg);
+#collage {  
+width: 300px; height: 300px; margin: 5px 5px 5px 5px; z-index: -200; transform: rotate(10deg);
 filter: brightness(100%) saturate(100%) contrast(100%) opacity(75%);
 }
