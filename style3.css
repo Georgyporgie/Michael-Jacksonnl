@@ -178,7 +178,7 @@ a { color: black;
 
 
 
-p {  background:linear-gradient(-45deg,firebrick,orangered); font-size: 19px;
+p {  background:linear-gradient(-45deg,firebrick,#FF7D4d,orangered); font-size: 19px;
 margin: 5px 5px 5px 5px; z-index: -200; padding: 25px;
  border-radius: 20px; border: solid 1px black;
 
