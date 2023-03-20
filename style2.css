@@ -737,10 +737,10 @@ display: block;
 margin: auto auto auto auto;
 }
 
-#Disco { filter: brightness(102%) contrast(125%) saturate(115%) opacity(75%) blur(3px);
+#disco { filter: brightness(102%) contrast(110%) saturate(115%) opacity(75%) blur(3px);
  transform: rotate(0deg);
- background-color: Black; height: 135px; float: right; margin-right: 50px;
-width:120px;  border-radius: 20px;
+ background-color: Black; height: 100px;  margin-left:50px;
+width:100px;  border-radius: 20px;
 
 z-index:-250;
 }
