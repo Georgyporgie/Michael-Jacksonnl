@@ -10,15 +10,7 @@
 <html>    
 
 <head>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-HGPPL3SXDS"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'G-HGPPL3SXDS');
-</script>
 <br>
 
 <title>Michael Jackson.nl   </title>
@@ -51,7 +43,9 @@
 <div>
 
 
-<img id= "Lovely">
+<img id= "Lovely" value="PLAY"  onclick="play()">
+<audio id="audio" src="muziek/background sounds/I love you.mp3" ></audio>
+
 
 
 <br>
@@ -79,7 +73,29 @@
 <br>
 <br>
 <br><br>
+<br>
+<br>
+<br>
 <br><br>
+<button class="Login" onclick="playAudio()"> message </button>
+<audio id="horn">
+  <source src="" type="audio/ogg">
+  <source src="" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+<script>
+var x = document.getElementById("horn"); 
+
+function playAudio() { 
+  x.play(); 
+} 
+
+</script>
+
+
+
+
+
 <br>
 <br>
 </div>
@@ -178,6 +194,11 @@
 
 
 <script src= "script.js"> </script>
+
+<script>
+document.getElementById("horn").setAttribute('src', 'muziek/background sounds/scream.mp3');
+</script>
+
 
 <script>
 document.getElementById("public").setAttribute('src', 'muziek/background sounds/scream.mp3');

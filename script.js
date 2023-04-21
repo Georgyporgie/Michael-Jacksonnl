@@ -15,7 +15,7 @@ console.log("Sending text to "+ phone);
 
 
 var username = "Jackson";
-username= "you betcha! <br><u>Michael Jackson</u>";
+username= "I love You! <br><u>Michael Jackson</u>";
 
 function share() {
 
