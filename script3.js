@@ -332,7 +332,7 @@ el.classList.add("italic", "bold", "underline");
 
 function changeProfile() { 
 var el = document.querySelector("img");
-el.setAttribute("src","images/Michael Jackson youth.gif");
+el.setAttribute("src","images/Michael Jackson youth2.png");
 }
 
 function next() {
