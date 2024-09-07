@@ -249,7 +249,7 @@ z-index: -150;
 #Deel 
 {
 padding :5px 5px 5px 5px Gold;  height: 25px; width: 6%; background: linear-gradient(45deg,black,#333333,#d3d3d3);
-color: gold;  font-style :  italic;  font-size: 16px; z-index: 0;
+color: gold;    font-size: 16px; z-index: 0;
   border-radius: 30px;    font-family: Arial ,Helvetica,sans-serif; font-weight: 600;
 text-align: center;display:block; height: 35px; width: 80px; margin: auto auto auto auto;
 }
@@ -379,7 +379,7 @@ animation: blinker 1s step-start infinite;
   
 
 #special  {  color: #FF0000; 
-animation: blinker 1s step-start infinite;
+animation: blinker 1s step-start infinite; font-style:  italic; 
 
 }
 
@@ -410,7 +410,6 @@ color:Gold; text-align: center;  font-style :  italic;  margin:-26px -10px 0px -
 
 text-align: center;
 font-family: Arial ,Helvetica,sans-serif;
-font-style :  italic;
 color:Black; background-color: beige;
 margin: 10px 10px 10px 10px; padding: 20px 20px 0px 20px;
 font-weight: 400;border: solid 2px silver;
@@ -421,7 +420,7 @@ z-index: -200;
 .Login {
 
 padding :5px 5px 5px 5px Gold;  height: 25px; width: 6%; background: linear-gradient(45deg,black,#333333,#d3d3d3);
-color: gold;  font-style :  italic;  font-size: 16px; z-index: 0;
+color: gold;    font-size: 16px; z-index: 0;
   border-radius: 30px;    font-family: Arial ,Helvetica,sans-serif;
 text-align: center;display:block; height: 35px; width: 80px; margin: auto auto auto auto;
 }
