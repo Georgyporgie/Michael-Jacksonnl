@@ -38,7 +38,7 @@ z-index: -100;
 
 
 #MJ{
-padding :10px 5px 9px 6px;  background: linear-gradient(90deg,#333333,#000000);
+padding :10px 5px 9px 6px;  background-color: black;
  border :solid 3px  gold; font-size: 30px; 
 color:Gold; text-align: center;     margin: -26px -10px 0px -9px;  font-family: Arial ,Helvetica,sans-serif; z-index: -200;
 
@@ -436,4 +436,12 @@ margin: auto auto auto auto;
 
 #number {  color: #FF0000;
 
+}
+
+#crown {
+filter: brightness(110%) saturate(120%) contrast(110%) opacity(85%); 
+ transform: rotate(0deg);
+background-color: Black; margin: auto auto auto auto ; height:37px;
+width:33px;
+z-index:50;
 }
