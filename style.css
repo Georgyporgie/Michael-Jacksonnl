@@ -39,7 +39,7 @@ z-index: -100;
 
 #MJ{
 padding :10px 5px 9px 6px;  background: linear-gradient(90deg,#333333,#000000);
- border :solid 3px  gold; font-size: 40px; 
+ border :solid 3px  gold; font-size: 30px; 
 color:Gold; text-align: center;     margin: -26px -10px 0px -9px;  font-family: Arial ,Helvetica,sans-serif; z-index: -200;
 
 }
@@ -47,7 +47,7 @@ color:Gold; text-align: center;     margin: -26px -10px 0px -9px;  font-family: 
 
 #Pop {
 padding :10px 5px 10px 5px;
- border :solid 3px  gold; font-size: 20px; z-index:-100; 
+ border :solid 3px  gold; font-size: 18px; z-index:-100; 
 color:silver; text-align: center;   background-color: black; margin: -5px -10px 0px -9px;  font-family: Arial ,Helvetica,sans-serif; 
 }
 
