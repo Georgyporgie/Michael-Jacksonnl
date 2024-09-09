@@ -394,8 +394,8 @@ animation: blinker 1s step-start infinite; font-style:  italic;
 
 .kop {
 padding :15px 5px 15px 5px;  background: linear-gradient(90deg,#333333,#000000);
- border :solid 3px  gold; font-size: 40px; 
-color:Gold; text-align: center;  font-style :  italic;  margin:-26px -10px 0px -8px; font-family: Arial ,Helvetica,sans-serif; z-index: -200;
+ border :solid 3px  gold; font-size: 32px; 
+color:Gold; text-align: center;    margin:-26px -10px 0px -8px; font-family: Arial ,Helvetica,sans-serif; z-index: -200;
 
 }
 
