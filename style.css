@@ -445,3 +445,13 @@ background-color: Black; margin: auto auto auto auto ; height:37px;
 width:33px;
 z-index:50;
 }
+
+
+
+#schatkistje { 
+height: 66px; width: 102px;
+filter:brightness(115%)contrast(110%)saturate(115%) opacity(75%);
+
+z-index: -300;  transform: rotate(20deg);
+
+}
