@@ -449,7 +449,7 @@ z-index:50;
 
 
 #schatkistje { 
-height: 66px; width: 102px;
+height: 56px; width: 92px;
 filter:brightness(115%)contrast(110%)saturate(115%) opacity(75%);
 
 z-index: -300;  transform: rotate(20deg);
