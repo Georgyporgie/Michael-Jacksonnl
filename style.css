@@ -231,7 +231,7 @@ z-index: 0; margin-left: 5px ; margin-right: 5px;
 }
 
 #Hat {
-filter: brightness(115%) saturate(120%)contrast(110%) opacity(75%);
+filter: brightness(110%) saturate(120%)contrast(110%) opacity(95%);
  transform: rotate(-45deg);
 background-color: Black; margin: auto auto auto auto ; height: 51px;
 width:71px; border-radius: 81px;
