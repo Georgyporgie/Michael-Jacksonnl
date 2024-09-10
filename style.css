@@ -433,7 +433,7 @@ margin: auto auto auto auto;
 }
 
 #crown {
-filter: brightness(115%) saturate(120%) contrast(110%) opacity(70%); 
+filter: brightness(115%) saturate(120%) contrast(110%) opacity(65%); 
  transform: rotate(0deg);
 background-color: Black; margin: auto auto auto auto ; height:37px;
 width:33px;
