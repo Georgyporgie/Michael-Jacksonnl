@@ -238,13 +238,7 @@ width:71px; border-radius: 81px;
 z-index:75;
 }
 
-.crown {
-filter: brightness(110%) saturate(110%) contrast(110%) opacity(75%);
- transform: rotate (-95deg);
-background-color: Black; margin: auto auto auto auto ; height: 33px;
-width:48px;
-z-index: -150;
-}
+
 
 #Deel 
 {
@@ -439,7 +433,7 @@ margin: auto auto auto auto;
 }
 
 #crown {
-filter: brightness(110%) saturate(120%) contrast(110%) opacity(85%); 
+filter: brightness(115%) saturate(120%) contrast(110%) opacity(70%); 
  transform: rotate(0deg);
 background-color: Black; margin: auto auto auto auto ; height:37px;
 width:33px;
