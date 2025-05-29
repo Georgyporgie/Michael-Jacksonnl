@@ -226,9 +226,9 @@ border: solid 2px silver;border-radius: 20px;
 
 #spot { 
 height: 120px; width: 225px;
-filter:brightness(110%)contrast(115%)saturate(110%) opacity(75%);
+filter:brightness(100%)contrast(100%)saturate(100%) opacity(55%);
 border-radius: 10px; float: right; transform: rotate(0deg);
-z-index: 0; margin-left: 5px ; margin-right: 5px;
+z-index: -400; margin-left: 5px ; margin-right: 5px;
 }
 
 #Hat {
