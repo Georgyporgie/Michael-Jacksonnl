@@ -28,7 +28,7 @@ border-radius: 80px;
 padding :1px 1px 1px 1px ;
 display : block;
 margin: auto auto auto auto;
-background-color: black;
+
 filter: brightness(115%) saturate(110%) contrast(120%) opacity(100%);
 z-index:200;
 
