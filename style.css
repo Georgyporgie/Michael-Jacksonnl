@@ -436,7 +436,7 @@ margin: auto auto auto auto;
 #crown {
 filter: brightness(105%) saturate(105%) contrast(100%) opacity(65%); 
  transform: rotate(0deg);
- margin: auto -5px auto -2px ; height:37px;
+ margin: auto -5px auto 5px ; height:37px;
 width:33px; 
 z-index:50;
 }
