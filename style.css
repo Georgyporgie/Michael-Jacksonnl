@@ -86,14 +86,14 @@ width:200px;
 
 
 { 
-padding : 3px 3px 3px 3px; font-style :  italic;  color:Gold;  background-color: silver;
+padding : 3px 3px 3px 3px; font-style :  italic;    
  z-index: -1;
  filter: brightness(105%) saturation(105%) contrast(120%) opacity(100%); transform: rotate(0deg);
  border-radius: 100px; 
 margin :80px 30px 30px 30px;
 height :210px;
 width:165px;
-border: solid 1px black;
+border: solid 1px silver;
 
 
 }
