@@ -325,7 +325,7 @@ border: solid 3px blue; padding: 5px;
 
 #luister {   width:100px; height: 30px; border-radius: 5px;
    z-index: -300; float: right;margin :auto auto auto auto;
- filter:brightness(102%) saturation(105%) contrast(120%) opacity(50%); 
+ filter:brightness(100%) saturation(100%) contrast(100%) opacity(50%); 
 }
 
 .Movie
@@ -356,12 +356,12 @@ animation: blinker 1s step-start infinite;
 
 #mimo {   width:100px; height: 40px; border-radius: 5px; transform:rotate(-1deg);
    z-index: -300; float: right; margin-top: 50px; 
- filter:brightness(102%) saturation(105%) contrast(120%) opacity(50%); margin-left: -80px;
+ filter:brightness(100%) saturation(100%) contrast(100%) opacity(50%); margin-left: -80px;
 }
 
 #kvms {   width:140px; height: 25px; border-radius: 5px; transform:rotate(4deg);
    z-index: -300; float: right; margin-top: 100px; 
- filter:brightness(102%) saturation(105%) contrast(120%) opacity(50%); margin-left: -250px;
+ filter:brightness(100%) saturation(100%) contrast(100%) opacity(50%); margin-left: -250px;
 }
 
 
@@ -433,10 +433,10 @@ margin: auto auto auto auto;
 }
 
 #crown {
-filter: brightness(115%) saturate(120%) contrast(110%) opacity(65%); 
+filter: brightness(105%) saturate(105%) contrast(100%) opacity(60%); 
  transform: rotate(0deg);
 background-color: Black; margin: auto auto auto auto ; height:37px;
-width:33px;
+width:33px; display: block;
 z-index:50;
 }
 
