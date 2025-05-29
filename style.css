@@ -113,7 +113,7 @@ z-index: 250;
 #Glove {
 filter: brightness(115%) saturate(120%) contrast(110%) opacity(75%); 
  transform: rotate(-25deg);
-background-color: Black; margin: auto auto auto auto ; height:42px;
+ margin: auto auto auto auto ; height:42px;
 width:38px;
 z-index:50;
 }
@@ -186,7 +186,7 @@ text-align: center;
 
 #bull { 
 height: 40px; width: 50px;
-filter:brightness(110%)contrast(115%)saturate(110%) opacity(75%);
+filter:brightness(100%)contrast(100%)saturate(100%) opacity(65%);
 border-radius: 5px;
 z-index: -100;
 }
@@ -234,7 +234,7 @@ z-index: 0; margin-left: 5px ; margin-right: 5px;
 #Hat {
 filter: brightness(110%) saturate(120%)contrast(110%) opacity(95%);
  transform: rotate(-45deg);
-background-color: Black; margin: auto auto auto auto ; height: 51px;
+ margin: auto auto auto auto ; height: 51px;
 width:71px; border-radius: 81px;
 z-index:75;
 }
@@ -436,7 +436,7 @@ margin: auto auto auto auto;
 #crown {
 filter: brightness(105%) saturate(105%) contrast(100%) opacity(60%); 
  transform: rotate(0deg);
-background-color: Black; margin: auto auto auto auto ; height:37px;
+ margin: auto auto auto auto ; height:37px;
 width:33px; 
 z-index:50;
 }
