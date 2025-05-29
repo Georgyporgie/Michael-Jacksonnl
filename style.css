@@ -105,7 +105,7 @@ border: solid 1px black;
 #Glasses {
 filter: brightness(110%) saturate(110%) contrast(110%) opacity(70%);
  transform: rotate(20deg);
-background-color: Black; margin: auto auto auto auto ; height: 48px;
+ margin: auto auto auto auto ; height: 48px;
 width:65px;
 z-index: 250;
 }
