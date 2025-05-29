@@ -437,7 +437,7 @@ margin: auto auto auto auto;
 filter: brightness(105%) saturate(105%) contrast(100%) opacity(60%); 
  transform: rotate(0deg);
 background-color: Black; margin: auto auto auto auto ; height:37px;
-width:33px; display: block;
+width:33px; 
 z-index:50;
 }
 
