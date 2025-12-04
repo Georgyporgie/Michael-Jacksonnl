@@ -60,6 +60,24 @@ function stopAudio() {
   currentAudio = null;
 }
    
+function playAudio(audioFile) {
+  // Hide the "Play" word
+  const playWord = document.getElementById('play');
+  if (playWord) {
+    playWord.style.display = 'none';
+  }
+
+  // Remove highlight from all songs
+  document.querySelectorAll('tag').forEach(tag => tag.classList.remove('active'));
+
+  // Highlight the clicked song
+  event.target.classList.add('active');
+
+  // Play audio
+  const audioPlayer = document.getElementById('audio');
+  audioPlayer.src = audioFile;
+  audioPlayer.play();
+}
 
 
 
@@ -101,5 +119,6 @@ var el = document.querySelector(
 el.classList.add("border",
   "bg-white");
 }
+
 
 
