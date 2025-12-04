@@ -37,7 +37,7 @@ posts.innerHTML = posts.innerHTML + postText +"<br>"+"<br>"+username +"<br>" ;
 
 
 
-let currentAudio = null; 
+
 
 
 
@@ -101,4 +101,5 @@ var el = document.querySelector(
 el.classList.add("border",
   "bg-white");
 }
+
 
