@@ -450,3 +450,11 @@ filter:brightness(115%)contrast(110%)saturate(115%) opacity(75%);
 z-index: -300;  transform: rotate(20deg);
 
 }
+
+tag.active {
+  color: #1e90ff;          /* bright blue text */
+  font-weight: bold;       /* make it stand out */
+  background-color: #f0f8ff; /* optional light background */
+  border-radius: 4px;
+  padding: 2px 4px;
+}
