@@ -451,10 +451,53 @@ z-index: -300;  transform: rotate(20deg);
 
 }
 
+/* Active track base style */
 tag.active {
-  color: #1e90ff;          /* bright blue text */
-  font-weight: bold;       /* make it stand out */
-  background-color: #f0f8ff; /* optional light background */
-  border-radius: 4px;
-  padding: 2px 4px;
+  color: #ffd700; /* gold text for King of Pop */
+  font-weight: bold;
+  position: relative;
+  overflow: hidden;
 }
+
+/* Shimmer effect on hover */
+tag.active:hover {
+  animation: pulse 1.5s infinite;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 215, 0, 0.2) 0%,
+    rgba(255, 255, 255, 0.6) 50%,
+    rgba(255, 215, 0, 0.2) 100%
+  );
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shimmer 2s linear infinite, pulse 1.5s ease-in-out infinite;
+}
+
+/* Shimmer animation */
+@keyframes shimmer {
+  0% {
+    background-position: -200% center;
+  }
+  100% {
+    background-position: 200% center;
+  }
+}
+
+/* Pulse animation */
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    text-shadow: 0 0 5px #ffd700;
+  }
+  50% {
+    transform: scale(1.05);
+    text-shadow: 0 0 15px #ffec8b;
+  }
+  100% {
+    transform: scale(1);
+    text-shadow: 0 0 5px #ffd700;
+  }
+}
+
+
