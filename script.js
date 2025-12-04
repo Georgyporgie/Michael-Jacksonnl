@@ -42,27 +42,22 @@ let currentAudio = null;
 
 
 
+let currentAudio = null;
+
 function playAudio(src) {
-    if (currentAudio) {
-        currentAudio.pause();
-        currentAudio.currentTime = 0; // Resets the track
-    }
-    currentAudio = new Audio(src);
-    currentAudio.play();
+  if (currentAudio) {
+    stopAudio();
+  }
+  currentAudio = new Audio(src);
+  currentAudio.volume = 1;
+  currentAudio.play();
 }
 
-
-
- if (currentAudio) {
-    let fadeOut = setInterval(() => {
-        if (currentAudio.volume > 0.1) {
-            currentAudio.volume -= 0.1;
-        } else {
-            clearInterval(fadeOut);
-            currentAudio.pause();
-            currentAudio.currentTime = 0;
-        }
-    }, 100);
+function stopAudio() {
+  if (!currentAudio) return;
+  currentAudio.pause();
+  currentAudio.currentTime = 0;
+  currentAudio = null;
 }
    
 
@@ -106,3 +101,4 @@ var el = document.querySelector(
 el.classList.add("border",
   "bg-white");
 }
+
