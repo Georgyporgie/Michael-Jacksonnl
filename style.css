@@ -500,4 +500,22 @@ tag.active:hover {
   }
 }
 
+#play {
+  opacity: 1;
+  transition: opacity 0.5s ease;
+}
+
+#play.hidden {
+  opacity: 0;
+}
+
+
+// Hide
+playWord.classList.add('hidden');
+
+// Show again when track ends
+audioPlayer.onended = function () {
+  playWord.classList.remove('hidden');
+};
+
 
