@@ -196,12 +196,33 @@ function calculateShipping(total) {
 
 
 
+let currentAudio = null; 
 
 
-function play(){
-       var audio = document.getElementById("audio");
-       audio.play();
-                 }
+
+
+function playAudio(src) {
+    if (currentAudio) {
+        currentAudio.pause();
+        currentAudio.currentTime = 0; // Resets the track
+    }
+    currentAudio = new Audio(src);
+    currentAudio.play();
+}
+
+
+
+ if (currentAudio) {
+    let fadeOut = setInterval(() => {
+        if (currentAudio.volume > 0.1) {
+            currentAudio.volume -= 0.1;
+        } else {
+            clearInterval(fadeOut);
+            currentAudio.pause();
+            currentAudio.currentTime = 0;
+        }
+    }, 100);
+}
 
 
 

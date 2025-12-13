@@ -332,7 +332,7 @@ el.classList.add("italic", "bold", "underline");
 
 function changeProfile() { 
 var el = document.querySelector("img");
-el.setAttribute("src","images/Michael Jackson youth2.png");
+el.setAttribute("src","images/Michael Jackson youth.gif");
 }
 
 function next() {
@@ -346,7 +346,7 @@ document.getElementById("feit").innerHTML = "Michael welcomes you at his newfoun
 
 function changeAttribute() { 
 var el = document.querySelector("img");
-el.src= "images/jackson55.png";
+el.src= "images/The Jacksons.png";
 }
 //var five = document.getElementById("five");
 // right.removeChild(five);
