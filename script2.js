@@ -228,7 +228,7 @@ console.log("Sending text to "+ phone);
 
 
 var username = "Jackson";
-username= "I love You! <br><em><u>Michael Jackson</u></em>";
+username= "thanks! <br><br><em><u>love Michael</u></em>";
 
 function share() {
 
