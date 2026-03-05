@@ -52,8 +52,9 @@ padding :10px 5px 10px 5px;
 color:silver; text-align: center;   background-color: #1c1d1d; margin: -5px -10px 0px -9px;  font-family: Arial ,Helvetica,sans-serif; 
 }
 
-#Menu
-{
+
+
+.menu-btn {
 background-color: transparent;
 border:none;
 color: white;
@@ -68,8 +69,19 @@ float: left;
 width: 24.27%;
 z-index: -200;
 
-
 }
+
+
+.menu-btn:hover {
+   background:linear-gradient(90deg,#eb1f48,#dc143c,#d11346); 
+
+    color: white;
+    transform: translateY(-3px) scale(1.05);
+    box-shadow: 0 6px 18px rgba(74,140,255,0.5);
+}
+
+
+
 .fo_audio
 {
 
@@ -373,7 +385,7 @@ animation: blinker 1s step-start infinite;
 }
   
 
-#special  {  color: #FF0000; 
+#specials  {  color: #FF0000; 
 animation: blinker 1s step-start infinite; font-style:  italic; 
 
 }

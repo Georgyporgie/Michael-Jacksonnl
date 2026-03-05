@@ -196,33 +196,12 @@ function calculateShipping(total) {
 
 
 
-let currentAudio = null; 
 
 
-
-
-function playAudio(src) {
-    if (currentAudio) {
-        currentAudio.pause();
-        currentAudio.currentTime = 0; // Resets the track
-    }
-    currentAudio = new Audio(src);
-    currentAudio.play();
-}
-
-
-
- if (currentAudio) {
-    let fadeOut = setInterval(() => {
-        if (currentAudio.volume > 0.1) {
-            currentAudio.volume -= 0.1;
-        } else {
-            clearInterval(fadeOut);
-            currentAudio.pause();
-            currentAudio.currentTime = 0;
-        }
-    }, 100);
-}
+function play(){
+       var audio = document.getElementById("audio");
+       audio.play();
+                 }
 
 
 
@@ -233,3 +212,60 @@ var el = document.querySelector("p");
 el.classList.add("italic", "bold", "underline");
 }
 
+
+function signUp() {
+var username= document.getElementById("usernameInput").value;
+
+var phone= document.getElementById("phoneInput").value;
+
+document.getElementById("message").innerHTML= username + " , I've sent a message to your phone.<br><br><em>Michael Jackson.</em>";
+
+
+console.log("Sending text to "+ phone);
+
+}
+
+
+
+var username = "Jackson";
+username= "I love You! <br><em><u>Michael Jackson</u></em>";
+
+function share() {
+
+
+var postText = 
+document.getElementById("postText").value;
+
+
+var posts = document.getElementById("posts");
+
+posts.innerHTML = posts.innerHTML +  
+"<br>";
+
+
+posts.innerHTML = posts.innerHTML + postText +"<br>"+"<br>"+username +"<br>" ;
+
+}
+
+
+function playAudio(audioFile, element) {
+  const specialsWord = document.getElementById('specials');
+  if (specialsWord) specialsWord.style.display = 'none';
+
+  // Remove highlight from all songs
+  document.querySelectorAll('.song').forEach(tag => tag.classList.remove('active'));
+
+  // Highlight clicked song
+  element.classList.add('active');
+
+  // Play audio
+  const audioPlayer = document.getElementById('audio');
+  audioPlayer.src = audioFile;
+  audioPlayer.play();
+
+  // When track ends
+  audioPlayer.onended = function () {
+    if (specialsWord) specialsWord.style.display = 'inline';
+    element.classList.remove('active');
+  };
+}

@@ -16,7 +16,7 @@
 <title>Michael Jackson.nl   </title>
 
 <link rel="stylesheet" href="style.css" >
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 </head>
 
@@ -27,11 +27,11 @@
 <body>
 <div>
 <h1 class="kop" ><strong>  Michaels <em>Treasury Room</em>  <img id="schatkistje"> </strong> </h1>
-<button id="Menu" onclick="window.location.href= 'index.html';">Home</button>
-<button id="Menu" onclick="window.location.href=  'https://www.youtube.com/watch?v=ZXmjhRkPVFc';"> Motown</button>
-<button id="Menu" onclick="window.location.href= 'MJ07.html';">Early </button>
+<button class="menu-btn" onclick="window.location.href= 'index.html';">Home</button>
+<button class="menu-btn" onclick="window.location.href=  'https://www.youtube.com/watch?v=ZXmjhRkPVFc';"> Motown</button>
+<button class="menu-btn" onclick="window.location.href= 'MJ07.html';">Early </button>
 
-<button id="Menu" onclick="window.location.href= 'https://www.youtube.com/watch?v=5DQJTMJPMkc&t=46s';">Concert</button>
+<button class="menu-btn" onclick="window.location.href= 'https://www.youtube.com/watch?v=5DQJTMJPMkc&t=46s';">Concert</button>
 
 
 
@@ -106,7 +106,7 @@
 </div>
 
 <div>
-<br><ul class= "lp"> <strong> MICHAEL JACKSON <span id="special">specials </span> </strong> 
+<br><ul class= "lp"> <strong> MICHAEL JACKSON <span id="specials">specials </span> </strong> 
 <br>
 <br>
 
@@ -115,11 +115,23 @@
 
 
 <ol id="list">  
-<li id="bad"> <tag onclick="playAudio('muziek/songs03/Michael Jackson - Megamix 01.mp3')"> MEGAMIX <span id="number">1</span></tag></li>
-<br>
 
-<li id="bad"><tag onclick="playAudio('muziek/songs03/Michael Jackson - Megamix 03.mp3')"> MEGAMIX <span id="number">2</span></tag></li>
+  <li id="bad">
+    <span class="song" onclick="playAudio('muziek/songs03/Michael Jackson - Megamix 01.mp3', this)">
+      MEGAMIX <span class="number">1</span>
+    </span>
+  </li>
+
+  <br>
+
+  <li id="bad">
+    <span class="song" onclick="playAudio('muziek/songs03/Michael Jackson - Megamix 03.mp3', this)">
+      MEGAMIX <span class="number">2</span>
+    </span>
+  </li>
+
 </ol>
+
 <br>
 <br>
 
@@ -163,14 +175,24 @@
 <br>
 
 
-<script src="script.js"></script>
+<script src= "script2.js"> </script>
+
+<script>
+document.getElementById("horn").setAttribute('src', 'muziek/background sounds/scream.mp3');
+</script>
 
 
 
 
 
+<script>
 
+//Get our img element by using document.getElementById
+var img = document.getElementById("suffi");
 
+//Set the src property of our element to the new image URL
+img.src = 'images/MJ.gif';
+</script>
 
 <script>
 
@@ -184,9 +206,24 @@ img.src = 'images/Michael Jackson sunglasses.png';
 
 
 
+<script>
+
+//Get our img element by using document.getElementById
+var img = document.getElementById("ball");
+
+//Set the src property of our element to the new image URL
+img.src = 'images/Discoball.gif';
+</script>
 
 
+<script>
 
+//Get our img element by using document.getElementById
+var img = document.getElementById("dance");
+
+//Set the src property of our element to the new image URL
+img.src = 'images/The dance king.gif';
+</script>
 
 
  <script>
@@ -210,4 +247,4 @@ img.src = 'images/schatkist Michael.png';
 </body>
 
 
-</Html>
+</html>
