@@ -39,36 +39,19 @@ posts.innerHTML = posts.innerHTML + postText +"<br>"+"<br>"+username +"<br>" ;
 
 
 
+let currentAudio = null;
 
-
-function playAudio(audioFile) {
-  // Hide the "Play" word
-  const playWord = document.getElementById('play');
-  if (playWord) {
-    playWord.style.display = 'none';
-  }
-
-  // Remove highlight from all songs
-  document.querySelectorAll('tag').forEach(tag => tag.classList.remove('active'));
-
-  // Highlight the clicked song
-  event.target.classList.add('active');
-
-  // Play audio
-  const audioPlayer = document.getElementById('audio');
-  audioPlayer.src = audioFile;
-  audioPlayer.play();
-
-  // When the track ends...
-  audioPlayer.onended = function () {
-    // Show the "Play" word again
-    if (playWord) {
-      playWord.style.display = 'inline'; // or 'block', depending on your layout
+function playAudio(src) {
+    // Stop the previous audio immediately
+    if (currentAudio) {
+        currentAudio.pause();
+        currentAudio.currentTime = 0;
     }
 
-    // Remove highlight from the active song
-    event.target.classList.remove('active');
-  };
+    // Play the new audio
+    currentAudio = new Audio(src);
+    currentAudio.volume = 1; // optional, but good to be explicit
+    currentAudio.play();
 }
 
 
