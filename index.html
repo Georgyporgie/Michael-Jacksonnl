@@ -54,6 +54,12 @@ const songPlayer = document.getElementById("player");
         }, 300);
     });
 
+songPlayer.addEventListener("ended", () => {
+    playBlinker.style.display = "inline";   // show blinker again
+});
+
+
+
 window.playAudio = function(file, element) {
     playBlinker.style.display = "none";
 
