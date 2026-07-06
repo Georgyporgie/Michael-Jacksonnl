@@ -25,6 +25,34 @@
 
 
 
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+
+    const kingIcon = document.getElementById("king");
+    const audio = document.getElementById("public");
+
+    function unlockAudio() {
+        audio.play().catch(() => {});
+        kingIcon.removeEventListener("touchstart", unlockAudio);
+        kingIcon.removeEventListener("click", unlockAudio);
+    }
+
+    kingIcon.addEventListener("touchstart", unlockAudio);
+    kingIcon.addEventListener("click", unlockAudio);
+
+    audio.addEventListener("play", () => {
+        kingIcon.style.filter = "drop-shadow(0 0 12px gold)";
+        kingIcon.style.transform = "scale(1.08)";
+        setTimeout(() => {
+            kingIcon.style.filter = "";
+            kingIcon.style.transform = "";
+        }, 300);
+    });
+
+});
+
+
+</script>
 
 
 

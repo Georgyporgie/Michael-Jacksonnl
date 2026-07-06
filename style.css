@@ -453,6 +453,10 @@ width:33px;
 z-index:50;
 }
 
+#king:active {
+    transform: scale(1.1);
+    filter: drop-shadow(0 0 10px gold);
+}
 
 
 #schatkistje { 
