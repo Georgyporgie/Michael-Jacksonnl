@@ -365,6 +365,16 @@ animation: blinker 1s step-start infinite;
   }
 }
 
+.song {
+    cursor: pointer;
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+.song.active {
+    color: gold;
+    text-shadow: 0 0 10px gold;
+    font-weight: bold;
+}
 
 
 #mimo {   width:100px; height: 40px; border-radius: 5px; transform:rotate(-1deg);

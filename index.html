@@ -30,6 +30,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const kingIcon = document.getElementById("king");
     const audio = document.getElementById("public");
+    const playBlinker = document.getElementById("play"); // ← nieuw
 
     function unlockAudio() {
         audio.play().catch(() => {});
@@ -49,7 +50,28 @@ document.addEventListener("DOMContentLoaded", () => {
         }, 300);
     });
 
+window.playAudio = function(file, element) {
+    // blinker weg
+    playBlinker.style.display = "none";
+
+    // alle songs unhighlighten
+    document.querySelectorAll(".song").forEach(song => {
+        song.classList.remove("active");
+    });
+
+    // aangeklikte song highlighten
+    if (element) {
+        element.classList.add("active");
+    }
+
+    // audio starten
+    audio.src = file;
+    audio.play().catch(() => {});
+};
+
+
 });
+
 
 
 </script>
